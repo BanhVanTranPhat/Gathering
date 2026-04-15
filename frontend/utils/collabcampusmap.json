@@ -1,0 +1,6790 @@
+{
+  "spawnpoint": {
+    "roomIndex": 0,
+    "x": 25,
+    "y": 15
+  },
+  "rooms": [
+    {
+      "name": "Collab Campus",
+      "tilemap": {
+        "0, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 10": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 11": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 12": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 13": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 14": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 15": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 16": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 17": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 18": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 19": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 20": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 21": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 22": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 24": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 25": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 26": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 27": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 28": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 29": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 30": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 31": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 32": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 33": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 34": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 35": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 36": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 37": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "0, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 10": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 11": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 12": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 13": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 14": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 15": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 16": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 17": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 18": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 19": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 20": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 21": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 22": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 24": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 25": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 26": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 27": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 28": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 29": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 30": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 31": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 32": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 33": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 34": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 35": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 36": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 37": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "1, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 12": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 15": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 16": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 17": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 20": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 21": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "2, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 25": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 26": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 27": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 28": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 29": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 30": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 31": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 32": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 33": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 34": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 35": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 36": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "2, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "2, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "3, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "3, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "3, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "3, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 28": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 29": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 30": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 31": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 32": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 33": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "3, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "3, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "3, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "4, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "4, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "4, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "4, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "4, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "4, 16": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-blackboard",
+          "impassable": true
+        },
+        "4, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "4, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "4, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "4, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "4, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "4, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "4, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "4, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 28": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 29": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 30": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 31": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 32": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 33": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "4, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "4, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "4, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "5, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "5, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "5, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "5, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "5, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "5, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "5, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "5, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "5, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "5, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "5, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "5, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "5, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "5, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "5, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "5, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "5, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "5, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "6, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "6, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "6, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "6, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "6, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "6, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "6, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "6, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "6, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "6, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "6, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "6, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "6, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "6, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "6, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "6, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "6, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "6, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "7, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "7, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "7, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "7, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "7, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "7, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "7, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "7, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "7, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "7, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "7, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "7, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "7, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "7, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "7, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "7, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "7, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "7, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "7, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "7, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "7, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "7, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "8, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "8, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "8, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "8, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "8, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "8, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "8, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "8, 29": {
+          "floor": "interiors-carpet_blue_yellow",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "8, 30": {
+          "floor": "interiors-carpet_blue_yellow",
+          "object": "interiors-table_wood_large",
+          "impassable": true
+        },
+        "8, 31": {
+          "floor": "interiors-carpet_blue_yellow",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "8, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "8, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "8, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "8, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "8, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "8, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "8, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "8, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "9, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "9, 23": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "9, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "9, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "9, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "9, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "9, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "9, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "9, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "9, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "9, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "9, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "9, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "9, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "9, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "9, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "9, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "9, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "10, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "10, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "10, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "10, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "10, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "10, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "10, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "10, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "10, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "10, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "10, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "10, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "10, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "10, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "10, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "10, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "10, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "10, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "10, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "10, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "10, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "10, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "11, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "11, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "11, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "11, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "11, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "11, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "11, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "11, 29": {
+          "floor": "interiors-carpet_blue_yellow",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "11, 30": {
+          "floor": "interiors-carpet_blue_yellow",
+          "object": "interiors-table_wood_large",
+          "impassable": true
+        },
+        "11, 31": {
+          "floor": "interiors-carpet_blue_yellow",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "11, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "11, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "11, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "11, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "11, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "11, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "11, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "11, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "12, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "12, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "12, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "12, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "12, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "12, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "12, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "12, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "12, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "12, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "12, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "12, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "12, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "12, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "12, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "12, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "12, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "12, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "13, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "13, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "13, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_blue",
+          "impassable": true
+        },
+        "13, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "13, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "13, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "13, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "13, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "13, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "13, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "13, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "13, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "13, 30": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "13, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "13, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "13, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "13, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "13, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "13, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "13, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "13, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "13, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "14, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "14, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "14, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "14, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "14, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "14, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "14, 28": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "14, 29": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "14, 30": {
+          "floor": "interiors-carpet_blue_yellow",
+          "object": "interiors-blackboard",
+          "impassable": true
+        },
+        "14, 31": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "14, 32": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "14, 33": {
+          "floor": "interiors-carpet_blue_yellow"
+        },
+        "14, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "14, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "14, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "14, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "14, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "14, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "15, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "15, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "15, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "15, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 28": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 29": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 30": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 31": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 32": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 33": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "15, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "15, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "15, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 12": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 15": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 16": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 17": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 20": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 21": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "16, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "16, 25": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 26": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 27": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 28": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 29": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 30": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 31": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 32": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 33": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 34": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 35": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 36": {
+          "floor": "roomBuilder-floor_tiles_blue"
+        },
+        "16, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "16, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "16, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 11": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 12": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 13": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 14": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 15": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "17, 17": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 18": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 19": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 20": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 21": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "17, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 24": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 25": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 26": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 27": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 28": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 29": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 30": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "17, 31": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 32": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 33": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 34": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 35": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 36": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 37": {
+          "floor": "roomBuilder-floor_tiles_blue",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "17, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "17, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "18, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "18, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "18, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 25": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 26": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 27": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 28": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 29": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 30": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 31": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 32": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 33": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 34": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 35": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 36": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "18, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "18, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "19, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "19, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "19, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "19, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "19, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "19, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "19, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "20, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 18": {
+          "floor": "interiors-carpet_red_large",
+          "object": "interiors-sofa_grey_large",
+          "impassable": true
+        },
+        "20, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "20, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "20, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "20, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "20, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "20, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "20, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "21, 11": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "interiors-blackboard",
+          "impassable": true
+        },
+        "21, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "21, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "21, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "21, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "21, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "21, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "21, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "22, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "22, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "22, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "22, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 28": {
+          "floor": "ground-light_solid_grass",
+          "object": "interiors-potted_plant_large",
+          "impassable": true
+        },
+        "22, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "22, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "22, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "22, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "23, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "23, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "23, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "23, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "23, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "23, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "23, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "24, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 14": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "24, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "24, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "24, 23": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "24, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "24, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "24, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "24, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "24, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "25, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 15": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "interiors-table_wood_large",
+          "impassable": true
+        },
+        "25, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "25, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "25, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "25, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 27": {
+          "floor": "ground-light_solid_grass",
+          "object": "village-well_filled",
+          "impassable": true
+        },
+        "25, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 30": {
+          "floor": "ground-light_solid_grass",
+          "object": "interiors-table_wood_round",
+          "impassable": true
+        },
+        "25, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "25, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "25, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "25, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "26, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 14": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "above_floor": "interiors-chair_office_blue"
+        },
+        "26, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "26, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "26, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "26, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "26, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "26, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "26, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "27, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "27, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "27, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "27, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "27, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "27, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "27, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "28, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "28, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "28, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "28, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 33": {
+          "floor": "ground-light_solid_grass",
+          "object": "interiors-potted_plant_large",
+          "impassable": true
+        },
+        "28, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "28, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "28, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "28, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "29, 11": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "interiors-blackboard",
+          "impassable": true
+        },
+        "29, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "29, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "29, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "29, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "29, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "29, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "29, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "30, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 18": {
+          "floor": "interiors-carpet_red_large",
+          "object": "interiors-sofa_blue_large",
+          "impassable": true
+        },
+        "30, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "30, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "30, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "30, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "30, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "30, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "30, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "31, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "31, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "31, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "31, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "31, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "31, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "31, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "32, 11": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 12": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 13": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 14": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 15": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 16": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 17": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 18": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 19": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 20": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 21": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "32, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "32, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "32, 25": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 26": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 27": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 28": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 29": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 30": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 31": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 32": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 33": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 34": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 35": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 36": {
+          "floor": "ground-light_solid_grass"
+        },
+        "32, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "32, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "32, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 10": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 11": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 12": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 13": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 14": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 15": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "33, 17": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 18": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 19": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 20": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 21": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 22": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "33, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 24": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 25": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 26": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 27": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 28": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 29": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 30": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 31": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 32": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 33": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 34": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 35": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 36": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 37": {
+          "floor": "ground-light_solid_grass",
+          "object": "roomBuilder-wall_wood_mid",
+          "impassable": true
+        },
+        "33, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "33, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 12": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 15": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 16": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 17": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 20": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 21": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 25": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 26": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 27": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 28": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 29": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 32": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 33": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 34": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 35": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 36": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "34, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "34, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "35, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "35, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "35, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "35, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "35, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "35, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "35, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "35, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "35, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "35, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "35, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "35, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "35, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "36, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_green",
+          "impassable": true
+        },
+        "36, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "36, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_green",
+          "impassable": true
+        },
+        "36, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "36, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "36, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "36, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "36, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "36, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "36, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "36, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "36, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "36, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "36, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "36, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "36, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "36, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "37, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "37, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "37, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "37, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "37, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "37, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "37, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "37, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "37, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "37, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "37, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "37, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "37, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "38, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "38, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "38, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 26": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-classroom_desk",
+          "impassable": true
+        },
+        "38, 27": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-classroom_chair"
+        },
+        "38, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "38, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "38, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "38, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "38, 33": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "38, 34": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "interiors-table_wood_round",
+          "impassable": true
+        },
+        "38, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "38, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "38, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "38, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "38, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "39, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_green",
+          "impassable": true
+        },
+        "39, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "39, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_green",
+          "impassable": true
+        },
+        "39, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "39, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "39, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "39, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "39, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "39, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "39, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "39, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "39, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "39, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "39, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "39, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "39, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "39, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "40, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "40, 23": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-bookshelf_packed",
+          "impassable": true
+        },
+        "40, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 30": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "40, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "40, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "40, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "40, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "40, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "40, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "40, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "40, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "40, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "41, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-bookshelf_packed",
+          "impassable": true
+        },
+        "41, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "41, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "41, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "41, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "41, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "41, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "41, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "41, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "41, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "41, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "41, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "41, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "41, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "42, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_green",
+          "impassable": true
+        },
+        "42, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "42, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-desk_pc_green",
+          "impassable": true
+        },
+        "42, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "42, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "42, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "42, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 26": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-classroom_desk",
+          "impassable": true
+        },
+        "42, 27": {
+          "floor": "roomBuilder-floor_wood_light",
+          "above_floor": "interiors-classroom_chair"
+        },
+        "42, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "42, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "42, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "42, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "42, 33": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "above_floor": "interiors-chair_office_green"
+        },
+        "42, 34": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "interiors-table_wood_round",
+          "impassable": true
+        },
+        "42, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "42, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "42, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "42, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "42, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "43, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-bookshelf_packed",
+          "impassable": true
+        },
+        "43, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "43, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "43, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "43, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "43, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "43, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "43, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "43, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "43, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "43, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "43, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "43, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "43, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "44, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "44, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "44, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "44, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "44, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "44, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "44, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "44, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "44, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "44, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "44, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "44, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "44, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "45, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "interiors-bookshelf_packed",
+          "impassable": true
+        },
+        "45, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "45, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "45, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "45, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "45, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "45, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "45, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "45, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "45, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "45, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "45, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "45, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "45, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "46, 11": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 12": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 13": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 14": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 15": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 16": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 17": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 18": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 19": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 20": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 21": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "46, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "46, 25": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 26": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 27": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 28": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 29": {
+          "floor": "roomBuilder-floor_wood_light"
+        },
+        "46, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "46, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "46, 32": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "46, 33": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "46, 34": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "46, 35": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "46, 36": {
+          "floor": "roomBuilder-floor_tiles_grey"
+        },
+        "46, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "46, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "46, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 10": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 11": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 12": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 13": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 14": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 15": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 16": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 17": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 18": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 19": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 20": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 21": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 22": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 24": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 25": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 26": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 27": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 28": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 29": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 30": {
+          "floor": "roomBuilder-floor_wood_light",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 31": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 32": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 33": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 34": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 35": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 36": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 37": {
+          "floor": "roomBuilder-floor_tiles_grey",
+          "object": "roomBuilder-wall_white_mid",
+          "impassable": true
+        },
+        "47, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "47, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 10": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 11": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 12": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 13": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 14": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 15": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 16": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 17": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 18": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 19": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 20": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 21": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 22": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 24": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 25": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 26": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 27": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 28": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 29": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 30": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 31": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 32": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 33": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 34": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 35": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 36": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 37": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "48, 39": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 0": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 1": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 2": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 3": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 4": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 5": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 6": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 7": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 8": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 9": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 10": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 11": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 12": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 13": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 14": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 15": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 16": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 17": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 18": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 19": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 20": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 21": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 22": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 23": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 24": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 25": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 26": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 27": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 28": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 29": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 30": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 31": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 32": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 33": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 34": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 35": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 36": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 37": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 38": {
+          "floor": "ground-detailed_grass"
+        },
+        "49, 39": {
+          "floor": "ground-detailed_grass"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3906 @@
+{
+  "spawnpoint": {
+    "roomIndex": 0,
+    "x": 2,
+    "y": 17
+  },
+  "rooms": [
+    {
+      "name": "WA Office",
+      "tilemap": {
+        "0, 0": {
+          "object": "waRoomBuilder-g28",
+          "impassable": true
+        },
+        "1, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "2, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "3, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "4, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "5, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "6, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "7, 0": {
+          "object": "waRoomBuilder-g160",
+          "impassable": true
+        },
+        "8, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "9, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "10, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "11, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "12, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "13, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "14, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "15, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "16, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "17, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "18, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "19, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "20, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "21, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "22, 0": {
+          "object": "waRoomBuilder-g160",
+          "impassable": true
+        },
+        "23, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "24, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "25, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "26, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "27, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "28, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "29, 0": {
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "30, 0": {
+          "object": "waRoomBuilder-g29",
+          "impassable": true
+        },
+        "0, 1": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 1": {
+          "object": "waLogoLong-g0",
+          "impassable": true
+        },
+        "2, 1": {
+          "object": "waLogoLong-g1",
+          "impassable": true
+        },
+        "3, 1": {
+          "object": "waLogoLong-g2",
+          "impassable": true
+        },
+        "4, 1": {
+          "object": "waLogoLong-g3",
+          "impassable": true
+        },
+        "5, 1": {
+          "object": "waLogoLong-g4",
+          "impassable": true
+        },
+        "6, 1": {
+          "object": "waLogoLong-g5",
+          "impassable": true
+        },
+        "7, 1": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "8, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "9, 1": {
+          "object": "waDecoration-g77",
+          "impassable": true
+        },
+        "10, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "11, 1": {
+          "object": "waRoomBuilder-g779",
+          "impassable": true
+        },
+        "12, 1": {
+          "object": "waRoomBuilder-g780",
+          "impassable": true
+        },
+        "13, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "14, 1": {
+          "object": "waMiscellaneous-g78",
+          "impassable": true
+        },
+        "15, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "16, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "17, 1": {
+          "object": "waRoomBuilder-g777",
+          "impassable": true
+        },
+        "18, 1": {
+          "object": "waRoomBuilder-g778",
+          "impassable": true
+        },
+        "19, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "20, 1": {
+          "object": "waDecoration-g77",
+          "impassable": true
+        },
+        "21, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "22, 1": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "23, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "24, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "25, 1": {
+          "object": "waMiscellaneous-g33",
+          "impassable": true
+        },
+        "26, 1": {
+          "object": "waMiscellaneous-g34",
+          "impassable": true
+        },
+        "27, 1": {
+          "object": "waMiscellaneous-g35",
+          "impassable": true
+        },
+        "28, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "29, 1": {
+          "object": "waRoomBuilder-g203",
+          "impassable": true
+        },
+        "30, 1": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 2": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "2, 2": {
+          "object": "waSeats-g0",
+          "impassable": true
+        },
+        "3, 2": {
+          "object": "waSeats-g1",
+          "impassable": true
+        },
+        "4, 2": {
+          "object": "waSeats-g1",
+          "impassable": true
+        },
+        "5, 2": {
+          "object": "waSeats-g2",
+          "impassable": true
+        },
+        "6, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "7, 2": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "8, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "9, 2": {
+          "object": "waDecoration-g89",
+          "impassable": true
+        },
+        "10, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "11, 2": {
+          "object": "waRoomBuilder-g804",
+          "impassable": true
+        },
+        "12, 2": {
+          "object": "waRoomBuilder-g805",
+          "impassable": true
+        },
+        "13, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "14, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "15, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "16, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "17, 2": {
+          "object": "waRoomBuilder-g802",
+          "impassable": true
+        },
+        "18, 2": {
+          "object": "waRoomBuilder-g803",
+          "impassable": true
+        },
+        "19, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "20, 2": {
+          "object": "waDecoration-g89",
+          "impassable": true
+        },
+        "21, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "22, 2": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "23, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "24, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "25, 2": {
+          "object": "waMiscellaneous-g43",
+          "impassable": true
+        },
+        "26, 2": {
+          "object": "waMiscellaneous-g44",
+          "impassable": true
+        },
+        "27, 2": {
+          "object": "waMiscellaneous-g45",
+          "impassable": true
+        },
+        "28, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "29, 2": {
+          "object": "waRoomBuilder-g228",
+          "impassable": true
+        },
+        "30, 2": {
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 3": {
+          "floor": "waUserInterface-g161",
+          "object": "waSeats-g59",
+          "impassable": true
+        },
+        "2, 3": {
+          "floor": "waUserInterface-g165",
+          "object": "waSeats-g13"
+        },
+        "3, 3": {
+          "floor": "waUserInterface-g165",
+          "object": "waSeats-g14"
+        },
+        "4, 3": {
+          "floor": "waUserInterface-g165",
+          "object": "waSeats-g14"
+        },
+        "5, 3": {
+          "floor": "waUserInterface-g165",
+          "object": "waSeats-g15"
+        },
+        "6, 3": {
+          "floor": "waUserInterface-g162"
+        },
+        "7, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "8, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 3": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waTables-g2"
+        },
+        "12, 3": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waMiscellaneous-g74"
+        },
+        "13, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "14, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "15, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "16, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "17, 3": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waTables-g2"
+        },
+        "18, 3": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waTables-g2"
+        },
+        "19, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "23, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "25, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g53",
+          "impassable": true
+        },
+        "26, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g54",
+          "impassable": true
+        },
+        "27, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g55",
+          "impassable": true
+        },
+        "28, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "29, 3": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "30, 3": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 4": {
+          "floor": "waUserInterface-g167",
+          "object": "waSeats-g60"
+        },
+        "2, 4": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "3, 4": {
+          "floor": "waRoomBuilder-g360",
+          "above_floor": "waTables-g45"
+        },
+        "4, 4": {
+          "floor": "waRoomBuilder-g360",
+          "above_floor": "waTables-g46"
+        },
+        "5, 4": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "6, 4": {
+          "floor": "waUserInterface-g168",
+          "object": "waSeats-g36"
+        },
+        "7, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g56",
+          "impassable": true
+        },
+        "8, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "11, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g25",
+          "impassable": true
+        },
+        "12, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g24",
+          "impassable": true
+        },
+        "13, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "14, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "15, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "16, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "17, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g25",
+          "impassable": true
+        },
+        "18, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g24",
+          "impassable": true
+        },
+        "19, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "20, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g56",
+          "impassable": true
+        },
+        "23, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "25, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "26, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "27, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "28, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "29, 4": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "30, 4": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 5": {
+          "floor": "waUserInterface-g167",
+          "object": "waSeats-g73"
+        },
+        "2, 5": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "3, 5": {
+          "floor": "waRoomBuilder-g360",
+          "object": "waTables-g55",
+          "impassable": true
+        },
+        "4, 5": {
+          "floor": "waRoomBuilder-g360",
+          "object": "waTables-g56",
+          "impassable": true
+        },
+        "5, 5": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "6, 5": {
+          "floor": "waUserInterface-g168",
+          "object": "waSeats-g49"
+        },
+        "7, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g280",
+          "impassable": true
+        },
+        "8, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g59",
+          "impassable": true
+        },
+        "12, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g12",
+          "impassable": true
+        },
+        "13, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "14, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "15, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "16, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "17, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g12",
+          "impassable": true
+        },
+        "18, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g59",
+          "impassable": true
+        },
+        "19, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g280",
+          "impassable": true
+        },
+        "23, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "25, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "26, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "27, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "28, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "29, 5": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "30, 5": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 6": {
+          "floor": "waUserInterface-g164"
+        },
+        "2, 6": {
+          "floor": "waUserInterface-g166"
+        },
+        "3, 6": {
+          "floor": "waUserInterface-g166"
+        },
+        "4, 6": {
+          "floor": "waUserInterface-g166"
+        },
+        "5, 6": {
+          "floor": "waUserInterface-g166"
+        },
+        "6, 6": {
+          "floor": "waUserInterface-g163",
+          "above_floor": "waDecoration-g66"
+        },
+        "7, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g305",
+          "above_floor": "waDecoration-g67",
+          "impassable": true
+        },
+        "8, 6": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waDecoration-g68"
+        },
+        "9, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "11, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g25",
+          "impassable": true
+        },
+        "12, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g24",
+          "impassable": true
+        },
+        "13, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "14, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "15, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "16, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "17, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g25",
+          "impassable": true
+        },
+        "18, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g24",
+          "impassable": true
+        },
+        "19, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "20, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g305",
+          "impassable": true
+        },
+        "23, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "25, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "26, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "27, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "28, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "29, 6": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "30, 6": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "2, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "3, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 7": {
+          "floor": "waUserInterface-g21"
+        },
+        "5, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waOtherFurniture-g31",
+          "impassable": true
+        },
+        "7, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waOtherFurniture-g32",
+          "impassable": true
+        },
+        "8, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g22",
+          "impassable": true
+        },
+        "12, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g22",
+          "impassable": true
+        },
+        "13, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "14, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "15, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "16, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "17, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g22",
+          "impassable": true
+        },
+        "18, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g22",
+          "impassable": true
+        },
+        "19, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "23, 7": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 7": {
+          "floor": "waUserInterface-g161"
+        },
+        "25, 7": {
+          "floor": "waUserInterface-g165"
+        },
+        "26, 7": {
+          "floor": "waUserInterface-g165",
+          "above_floor": "waTables-g5"
+        },
+        "27, 7": {
+          "floor": "waUserInterface-g165",
+          "above_floor": "waTables-g6"
+        },
+        "28, 7": {
+          "floor": "waUserInterface-g165"
+        },
+        "29, 7": {
+          "floor": "waUserInterface-g162"
+        },
+        "30, 7": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g46",
+          "impassable": true
+        },
+        "2, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g58",
+          "impassable": true
+        },
+        "3, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "7, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "8, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "12, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "13, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "14, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "15, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "16, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "17, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "18, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "19, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "23, 8": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 8": {
+          "floor": "waUserInterface-g167"
+        },
+        "25, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "26, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g15",
+          "impassable": true
+        },
+        "27, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g17",
+          "impassable": true
+        },
+        "28, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "29, 8": {
+          "floor": "waUserInterface-g168"
+        },
+        "30, 8": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g56",
+          "impassable": true
+        },
+        "2, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g81"
+        },
+        "3, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "7, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "8, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "12, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g121"
+        },
+        "13, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g122"
+        },
+        "14, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g121"
+        },
+        "15, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g122"
+        },
+        "16, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g121"
+        },
+        "17, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g122"
+        },
+        "18, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "19, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 9": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "23, 9": {
+          "floor": "waUserInterface-g21"
+        },
+        "24, 9": {
+          "floor": "waUserInterface-g167"
+        },
+        "25, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "26, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g58",
+          "impassable": true
+        },
+        "27, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g17",
+          "impassable": true
+        },
+        "28, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "29, 9": {
+          "floor": "waUserInterface-g168"
+        },
+        "30, 9": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g104",
+          "impassable": true
+        },
+        "2, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g91"
+        },
+        "3, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "7, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "8, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "12, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g134",
+          "above_floor": "waTables-g0"
+        },
+        "13, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g135",
+          "above_floor": "waTables-g3"
+        },
+        "14, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g134",
+          "above_floor": "waTables-g3"
+        },
+        "15, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g135",
+          "above_floor": "waTables-g3"
+        },
+        "16, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g134",
+          "above_floor": "waTables-g3"
+        },
+        "17, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g135",
+          "above_floor": "waTables-g1"
+        },
+        "18, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "19, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "23, 10": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 10": {
+          "floor": "waUserInterface-g167"
+        },
+        "25, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "26, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g17",
+          "impassable": true
+        },
+        "27, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g17",
+          "impassable": true
+        },
+        "28, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "29, 10": {
+          "floor": "waUserInterface-g168"
+        },
+        "30, 10": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g100",
+          "impassable": true
+        },
+        "2, 11": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waTables-g101"
+        },
+        "3, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "7, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "8, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "12, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g2",
+          "impassable": true
+        },
+        "13, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g3",
+          "impassable": true
+        },
+        "14, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g2",
+          "impassable": true
+        },
+        "15, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g3",
+          "impassable": true
+        },
+        "16, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g2",
+          "impassable": true
+        },
+        "17, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g3",
+          "impassable": true
+        },
+        "18, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "19, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "20, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "21, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "22, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g31",
+          "impassable": true
+        },
+        "23, 11": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 11": {
+          "floor": "waUserInterface-g167"
+        },
+        "25, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g119"
+        },
+        "26, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g17",
+          "impassable": true
+        },
+        "27, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g58",
+          "impassable": true
+        },
+        "28, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g120"
+        },
+        "29, 11": {
+          "floor": "waUserInterface-g168"
+        },
+        "30, 11": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g110",
+          "impassable": true
+        },
+        "2, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g111",
+          "impassable": true
+        },
+        "3, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "7, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "8, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "12, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g12",
+          "impassable": true
+        },
+        "13, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g13",
+          "impassable": true
+        },
+        "14, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g12",
+          "impassable": true
+        },
+        "15, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g13",
+          "impassable": true
+        },
+        "16, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g12",
+          "impassable": true
+        },
+        "17, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g13",
+          "impassable": true
+        },
+        "18, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "19, 12": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waMiscellaneous-g28"
+        },
+        "20, 12": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waMiscellaneous-g27"
+        },
+        "21, 12": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waMiscellaneous-g26"
+        },
+        "22, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "23, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 12": {
+          "floor": "waUserInterface-g167"
+        },
+        "25, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "26, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g25"
+        },
+        "27, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g27"
+        },
+        "28, 12": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "29, 12": {
+          "floor": "waUserInterface-g168"
+        },
+        "30, 12": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g56",
+          "above_floor": "waDecoration-g60",
+          "impassable": true
+        },
+        "1, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g60",
+          "above_floor": "waDecoration-g61"
+        },
+        "2, 13": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waDecoration-g62"
+        },
+        "3, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "7, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "8, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "11, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "12, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g136"
+        },
+        "13, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g137"
+        },
+        "14, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g136"
+        },
+        "15, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g137"
+        },
+        "16, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g136"
+        },
+        "17, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g137"
+        },
+        "18, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "19, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g38"
+        },
+        "20, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g37",
+          "impassable": true
+        },
+        "21, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waMiscellaneous-g60",
+          "impassable": true
+        },
+        "22, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "23, 13": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "24, 13": {
+          "floor": "waUserInterface-g164"
+        },
+        "25, 13": {
+          "floor": "waUserInterface-g166"
+        },
+        "26, 13": {
+          "floor": "waUserInterface-g166"
+        },
+        "27, 13": {
+          "floor": "waUserInterface-g166"
+        },
+        "28, 13": {
+          "floor": "waUserInterface-g166"
+        },
+        "29, 13": {
+          "floor": "waUserInterface-g163"
+        },
+        "30, 13": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g280",
+          "above_floor": "waDecoration-g72",
+          "impassable": true
+        },
+        "1, 14": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waDecoration-g73"
+        },
+        "2, 14": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waDecoration-g74"
+        },
+        "3, 14": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 14": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 14": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "6, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g28",
+          "impassable": true
+        },
+        "7, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g63",
+          "impassable": true
+        },
+        "8, 14": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waRoomBuilder-g64"
+        },
+        "9, 14": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waRoomBuilder-g64"
+        },
+        "10, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g65",
+          "impassable": true
+        },
+        "11, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "12, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "13, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "14, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "15, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "16, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "17, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "18, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "19, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "20, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "21, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "22, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g110",
+          "impassable": true
+        },
+        "23, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "24, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "25, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "26, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "27, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "28, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "29, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "30, 14": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g54",
+          "impassable": true
+        },
+        "0, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g305",
+          "above_floor": "waDecoration-g84",
+          "impassable": true
+        },
+        "1, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waDecoration-g85",
+          "impassable": true
+        },
+        "2, 15": {
+          "floor": "waRoomBuilder-g350",
+          "above_floor": "waDecoration-g86"
+        },
+        "3, 15": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 15": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g46"
+        },
+        "6, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "7, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "8, 15": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 15": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "11, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "12, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "13, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "14, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "15, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "16, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "17, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "18, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "19, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "20, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "21, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "22, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "23, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "24, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "25, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "26, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "above_floor": "waExterior-g78",
+          "impassable": true
+        },
+        "27, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "above_floor": "waExterior-g79",
+          "impassable": true
+        },
+        "28, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "above_floor": "waExterior-g80",
+          "impassable": true
+        },
+        "29, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "30, 15": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "0, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g450",
+          "teleporter": {
+            "roomIndex": 1,
+            "x": 20,
+            "y": 4
+          }
+        },
+        "1, 16": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "2, 16": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "3, 16": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 16": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waTables-g130",
+          "impassable": true
+        },
+        "6, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "7, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waDecoration-g78",
+          "impassable": true
+        },
+        "8, 16": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "9, 16": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "10, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waDecoration-g78",
+          "impassable": true
+        },
+        "11, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "12, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "13, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "14, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "15, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "16, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "17, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "18, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "19, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "20, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "21, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "22, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "23, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "24, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "25, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "26, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "above_floor": "waExterior-g103",
+          "impassable": true
+        },
+        "27, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "above_floor": "waExterior-g104",
+          "impassable": true
+        },
+        "28, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "above_floor": "waExterior-g105",
+          "impassable": true
+        },
+        "29, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "30, 16": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "0, 17": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g475"
+        },
+        "1, 17": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "2, 17": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "3, 17": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "4, 17": {
+          "floor": "waRoomBuilder-g350"
+        },
+        "5, 17": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waSeats-g47"
+        },
+        "6, 17": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "7, 17": {
+          "floor": "waExterior-g628",
+          "object": "waDecoration-g90",
+          "impassable": true
+        },
+        "8, 17": {
+          "floor": "waExterior-g628"
+        },
+        "9, 17": {
+          "floor": "waExterior-g628"
+        },
+        "10, 17": {
+          "floor": "waExterior-g628",
+          "object": "waDecoration-g90",
+          "impassable": true
+        },
+        "11, 17": {
+          "floor": "waExterior-g628"
+        },
+        "12, 17": {
+          "floor": "waExterior-g628"
+        },
+        "13, 17": {
+          "floor": "waExterior-g628"
+        },
+        "14, 17": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g506"
+        },
+        "15, 17": {
+          "floor": "waExterior-g628"
+        },
+        "16, 17": {
+          "floor": "waExterior-g628"
+        },
+        "17, 17": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g579"
+        },
+        "18, 17": {
+          "floor": "waExterior-g628"
+        },
+        "19, 17": {
+          "floor": "waUserInterface-g60"
+        },
+        "20, 17": {
+          "floor": "waUserInterface-g239"
+        },
+        "21, 17": {
+          "floor": "waUserInterface-g243",
+          "object": "waSeats-g143"
+        },
+        "22, 17": {
+          "floor": "waUserInterface-g243",
+          "object": "waSeats-g144"
+        },
+        "23, 17": {
+          "floor": "waUserInterface-g243"
+        },
+        "24, 17": {
+          "floor": "waUserInterface-g243",
+          "object": "waSeats-g143"
+        },
+        "25, 17": {
+          "floor": "waUserInterface-g243",
+          "object": "waSeats-g144"
+        },
+        "26, 17": {
+          "floor": "waUserInterface-g240",
+          "object": "waMiscellaneous-g62",
+          "above_floor": "waExterior-g128"
+        },
+        "27, 17": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g129",
+          "impassable": true
+        },
+        "28, 17": {
+          "floor": "waExterior-g628",
+          "above_floor": "waExterior-g75"
+        },
+        "29, 17": {
+          "floor": "waExterior-g628",
+          "above_floor": "waExterior-g76"
+        },
+        "30, 17": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g506",
+          "above_floor": "waExterior-g77"
+        },
+        "0, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g58",
+          "impassable": true
+        },
+        "1, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "2, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "3, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "4, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "5, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "6, 18": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g54",
+          "impassable": true
+        },
+        "7, 18": {
+          "floor": "waExterior-g628"
+        },
+        "8, 18": {
+          "floor": "waExterior-g628"
+        },
+        "9, 18": {
+          "floor": "waExterior-g628"
+        },
+        "10, 18": {
+          "floor": "waExterior-g628"
+        },
+        "11, 18": {
+          "floor": "waExterior-g628"
+        },
+        "12, 18": {
+          "floor": "waExterior-g628",
+          "object": "waSeats-g150"
+        },
+        "13, 18": {
+          "floor": "waExterior-g628"
+        },
+        "14, 18": {
+          "floor": "waExterior-g628",
+          "object": "waTables-g177",
+          "impassable": true
+        },
+        "15, 18": {
+          "floor": "waExterior-g628",
+          "object": "waTables-g178",
+          "impassable": true
+        },
+        "16, 18": {
+          "floor": "waExterior-g628"
+        },
+        "17, 18": {
+          "floor": "waExterior-g628",
+          "object": "waSeats-g150"
+        },
+        "18, 18": {
+          "floor": "waExterior-g628"
+        },
+        "19, 18": {
+          "floor": "waExterior-g628"
+        },
+        "20, 18": {
+          "floor": "waUserInterface-g245"
+        },
+        "21, 18": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g533"
+        },
+        "22, 18": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g534"
+        },
+        "23, 18": {
+          "floor": "waExterior-g628"
+        },
+        "24, 18": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g533"
+        },
+        "25, 18": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g534"
+        },
+        "26, 18": {
+          "floor": "waUserInterface-g246",
+          "object": "waSeats-g147"
+        },
+        "27, 18": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g477",
+          "impassable": true
+        },
+        "28, 18": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g478",
+          "above_floor": "waExterior-g100",
+          "impassable": true
+        },
+        "29, 18": {
+          "floor": "waExterior-g628",
+          "above_floor": "waExterior-g101"
+        },
+        "30, 18": {
+          "floor": "waExterior-g628",
+          "above_floor": "waExterior-g102"
+        },
+        "0, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "1, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "2, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "3, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "4, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "5, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "6, 19": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "7, 19": {
+          "floor": "waExterior-g628"
+        },
+        "8, 19": {
+          "floor": "waExterior-g628"
+        },
+        "9, 19": {
+          "floor": "waExterior-g628"
+        },
+        "10, 19": {
+          "floor": "waExterior-g628"
+        },
+        "11, 19": {
+          "floor": "waExterior-g628"
+        },
+        "12, 19": {
+          "floor": "waExterior-g628",
+          "object": "waSeats-g150"
+        },
+        "13, 19": {
+          "floor": "waExterior-g628"
+        },
+        "14, 19": {
+          "floor": "waExterior-g628",
+          "object": "waTables-g187",
+          "impassable": true
+        },
+        "15, 19": {
+          "floor": "waExterior-g628",
+          "object": "waTables-g188",
+          "impassable": true
+        },
+        "16, 19": {
+          "floor": "waExterior-g628"
+        },
+        "17, 19": {
+          "floor": "waExterior-g628",
+          "object": "waSeats-g150"
+        },
+        "18, 19": {
+          "floor": "waExterior-g628"
+        },
+        "19, 19": {
+          "floor": "waExterior-g628"
+        },
+        "20, 19": {
+          "floor": "waUserInterface-g245"
+        },
+        "21, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g558"
+        },
+        "22, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g559"
+        },
+        "23, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g584"
+        },
+        "24, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g558"
+        },
+        "25, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g559"
+        },
+        "26, 19": {
+          "floor": "waUserInterface-g246",
+          "object": "waSeats-g160"
+        },
+        "27, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g480",
+          "impassable": true
+        },
+        "28, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g125"
+        },
+        "29, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g126",
+          "impassable": true
+        },
+        "30, 19": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g127"
+        },
+        "0, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "1, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "2, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "3, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "4, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "5, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "6, 20": {
+          "floor": "waRoomBuilder-g350",
+          "object": "waRoomBuilder-g310",
+          "impassable": true
+        },
+        "7, 20": {
+          "floor": "waExterior-g628"
+        },
+        "8, 20": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g506"
+        },
+        "9, 20": {
+          "floor": "waExterior-g628"
+        },
+        "10, 20": {
+          "floor": "waExterior-g628"
+        },
+        "11, 20": {
+          "floor": "waExterior-g628"
+        },
+        "12, 20": {
+          "floor": "waExterior-g628"
+        },
+        "13, 20": {
+          "floor": "waExterior-g628"
+        },
+        "14, 20": {
+          "floor": "waExterior-g628"
+        },
+        "15, 20": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g578"
+        },
+        "16, 20": {
+          "floor": "waExterior-g628"
+        },
+        "17, 20": {
+          "floor": "waExterior-g628"
+        },
+        "18, 20": {
+          "floor": "waExterior-g628",
+          "object": "waExterior-g506"
+        },
+        "19, 20": {
+          "floor": "waExterior-g628"
+        },
+        "20, 20": {
+          "floor": "waUserInterface-g242"
+        },
+        "21, 20": {
+          "floor": "waUserInterface-g244"
+        },
+        "22, 20": {
+          "floor": "waUserInterface-g244"
+        },
+        "23, 20": {
+          "floor": "waUserInterface-g244"
+        },
+        "24, 20": {
+          "floor": "waUserInterface-g244"
+        },
+        "25, 20": {
+          "floor": "waUserInterface-g244"
+        },
+        "26, 20": {
+          "floor": "waUserInterface-g241"
+        },
+        "27, 20": {
+          "floor": "waExterior-g628",
+          "above_floor": "waExterior-g3"
+        },
+        "28, 20": {
+          "floor": "waExterior-g628",
+          "above_floor": "waExterior-g4"
+        },
+        "29, 20": {
+          "floor": "waExterior-g628"
+        },
+        "30, 20": {
+          "floor": "waExterior-g628"
+        }
+      }
+    },
+    {
+      "name": "WA Conference",
+      "tilemap": {
+        "0, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g28",
+          "impassable": true
+        },
+        "1, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "2, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "3, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g33",
+          "impassable": true
+        },
+        "4, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g34",
+          "impassable": true
+        },
+        "5, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g33",
+          "impassable": true
+        },
+        "6, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "7, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "8, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "9, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "10, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "11, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "12, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "13, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g459",
+          "impassable": true
+        },
+        "14, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "15, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "16, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "17, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "18, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g63",
+          "impassable": true
+        },
+        "19, 0": {
+          "floor": "waRoomBuilder-g383",
+          "above_floor": "waRoomBuilder-g64",
+          "teleporter": {
+            "roomIndex": 0,
+            "x": 2,
+            "y": 17
+          }
+        },
+        "20, 0": {
+          "floor": "waRoomBuilder-g383",
+          "above_floor": "waRoomBuilder-g64"
+        },
+        "21, 0": {
+          "floor": "waRoomBuilder-g383",
+          "above_floor": "waRoomBuilder-g64"
+        },
+        "22, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g65",
+          "impassable": true
+        },
+        "23, 0": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g29",
+          "impassable": true
+        },
+        "0, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "2, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "3, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g43",
+          "impassable": true
+        },
+        "4, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waLogoLong-g0",
+          "impassable": true
+        },
+        "5, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g43",
+          "impassable": true
+        },
+        "6, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "7, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "8, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "9, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "10, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g200",
+          "impassable": true
+        },
+        "11, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g49",
+          "impassable": true
+        },
+        "12, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waLogoLong-g1",
+          "impassable": true
+        },
+        "13, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g484",
+          "impassable": true
+        },
+        "14, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waLogoLong-g3",
+          "impassable": true
+        },
+        "15, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waLogoLong-g4",
+          "impassable": true
+        },
+        "16, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waLogoLong-g5",
+          "impassable": true
+        },
+        "17, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g51"
+        },
+        "18, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g77",
+          "impassable": true
+        },
+        "19, 1": {
+          "floor": "waRoomBuilder-g383",
+          "object": "waRoomBuilder-g456"
+        },
+        "20, 1": {
+          "floor": "waRoomBuilder-g383",
+          "object": "waRoomBuilder-g457"
+        },
+        "21, 1": {
+          "floor": "waRoomBuilder-g383",
+          "object": "waRoomBuilder-g458"
+        },
+        "22, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g77",
+          "impassable": true
+        },
+        "23, 1": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g20",
+          "impassable": true
+        },
+        "2, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g225",
+          "impassable": true
+        },
+        "3, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g33",
+          "impassable": true
+        },
+        "4, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g34",
+          "impassable": true
+        },
+        "5, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g33",
+          "impassable": true
+        },
+        "6, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g225",
+          "impassable": true
+        },
+        "7, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g225",
+          "impassable": true
+        },
+        "8, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g95",
+          "impassable": true
+        },
+        "9, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g0",
+          "impassable": true
+        },
+        "10, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g97",
+          "impassable": true
+        },
+        "11, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g225",
+          "impassable": true
+        },
+        "12, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g0",
+          "impassable": true
+        },
+        "13, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g3",
+          "impassable": true
+        },
+        "14, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g3",
+          "impassable": true
+        },
+        "15, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g3",
+          "impassable": true
+        },
+        "16, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g57",
+          "impassable": true
+        },
+        "17, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g225",
+          "impassable": true
+        },
+        "18, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g89",
+          "impassable": true
+        },
+        "19, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g481"
+        },
+        "20, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g482"
+        },
+        "21, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g483"
+        },
+        "22, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g89",
+          "impassable": true
+        },
+        "23, 2": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g30",
+          "impassable": true
+        },
+        "2, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g88"
+        },
+        "4, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g89"
+        },
+        "5, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g90"
+        },
+        "6, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g91"
+        },
+        "7, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g105",
+          "impassable": true
+        },
+        "9, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g106",
+          "impassable": true
+        },
+        "10, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g107",
+          "impassable": true
+        },
+        "11, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g96",
+          "impassable": true
+        },
+        "13, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g102",
+          "impassable": true
+        },
+        "14, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g90",
+          "impassable": true
+        },
+        "15, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g100",
+          "impassable": true
+        },
+        "16, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waMiscellaneous-g58",
+          "impassable": true
+        },
+        "17, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "18, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 3": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "23, 3": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g22",
+          "impassable": true
+        },
+        "2, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g100"
+        },
+        "4, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g101"
+        },
+        "5, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g102"
+        },
+        "6, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g103"
+        },
+        "7, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "10, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g20",
+          "impassable": true
+        },
+        "13, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g23",
+          "impassable": true
+        },
+        "14, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g23",
+          "impassable": true
+        },
+        "15, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g23",
+          "impassable": true
+        },
+        "16, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g21",
+          "impassable": true
+        },
+        "17, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "18, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 4": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g82"
+        },
+        "23, 4": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g112"
+        },
+        "4, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g113"
+        },
+        "5, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g114"
+        },
+        "6, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waOtherFurniture-g115"
+        },
+        "7, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "10, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "13, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "14, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "15, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "16, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "17, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "18, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 5": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g95"
+        },
+        "23, 5": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 6": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "4, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "5, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "6, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "7, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "10, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "13, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "14, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "15, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "16, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "17, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "18, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 6": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 6": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g140",
+          "impassable": true
+        },
+        "23, 6": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "3, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "4, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "5, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "6, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "7, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g63"
+        },
+        "10, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "13, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "14, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "15, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "16, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "17, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "18, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 7": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g82"
+        },
+        "23, 7": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 8": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "4, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "5, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "6, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "7, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 8": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g76"
+        },
+        "10, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 8": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "12, 8": {
+          "floor": "waRoomBuilder-g360",
+          "above_floor": "waTables-g45"
+        },
+        "13, 8": {
+          "floor": "waRoomBuilder-g360",
+          "above_floor": "waTables-g46"
+        },
+        "14, 8": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "15, 8": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "16, 8": {
+          "floor": "waRoomBuilder-g360",
+          "above_floor": "waTables-g45"
+        },
+        "17, 8": {
+          "floor": "waRoomBuilder-g360",
+          "above_floor": "waTables-g46"
+        },
+        "18, 8": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "19, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 8": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 8": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g95"
+        },
+        "23, 8": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "3, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "4, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "5, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "6, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "7, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g63"
+        },
+        "10, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 9": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "12, 9": {
+          "floor": "waRoomBuilder-g360",
+          "object": "waTables-g55",
+          "impassable": true
+        },
+        "13, 9": {
+          "floor": "waRoomBuilder-g360",
+          "object": "waTables-g56",
+          "impassable": true
+        },
+        "14, 9": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "15, 9": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "16, 9": {
+          "floor": "waRoomBuilder-g360",
+          "object": "waTables-g55",
+          "impassable": true
+        },
+        "17, 9": {
+          "floor": "waRoomBuilder-g360",
+          "object": "waTables-g56",
+          "impassable": true
+        },
+        "18, 9": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "19, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 9": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waTables-g140",
+          "impassable": true
+        },
+        "23, 9": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 10": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "4, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "5, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "6, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "7, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 10": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g76"
+        },
+        "10, 10": {
+          "floor": "waRoomBuilder-g358",
+          "above_floor": "waDecoration-g63"
+        },
+        "11, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "12, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "13, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "14, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "15, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "16, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "17, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "18, 10": {
+          "floor": "waRoomBuilder-g360"
+        },
+        "19, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 10": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 10": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g82"
+        },
+        "23, 10": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "3, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "4, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "5, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "6, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g99"
+        },
+        "7, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 11": {
+          "floor": "waRoomBuilder-g358",
+          "above_floor": "waDecoration-g75"
+        },
+        "10, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "13, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "14, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "15, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "16, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "17, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "18, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 11": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g95"
+        },
+        "23, 11": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "1, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "2, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "3, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "4, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "5, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "6, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "7, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "8, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "9, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waDecoration-g87",
+          "impassable": true
+        },
+        "10, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "11, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "12, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g93"
+        },
+        "13, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g94"
+        },
+        "14, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "15, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "16, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g93"
+        },
+        "17, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waSeats-g94"
+        },
+        "18, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "19, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "20, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "21, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "22, 12": {
+          "floor": "waRoomBuilder-g358"
+        },
+        "23, 12": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g102",
+          "impassable": true
+        },
+        "0, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g53",
+          "impassable": true
+        },
+        "1, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "2, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "3, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "4, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "5, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "6, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "7, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "8, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "9, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "10, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "11, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "12, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "13, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "14, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "15, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "16, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "17, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "18, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "19, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "20, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "21, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "22, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g104",
+          "impassable": true
+        },
+        "23, 13": {
+          "floor": "waRoomBuilder-g358",
+          "object": "waRoomBuilder-g54",
+          "impassable": true
+        }
+      }
+    }
+  ]
+}
