@@ -16,6 +16,7 @@ export interface IEvent extends Document {
   createdBy: string;
   createdByName: string;
   attendees: IEventAttendee[];
+  guestEmails?: string[];
   location: string;
   maxParticipants?: number;
   hostingMode?: "agora" | "external";
@@ -65,6 +66,11 @@ const eventSchema = new Schema<IEvent>(
         },
       ],
       validate: [(v: any[]) => v.length <= 200, "Maximum 200 attendees"],
+    },
+    guestEmails: {
+      type: [String],
+      default: [],
+      validate: [(v: string[]) => v.length <= 100, "Maximum 100 guest emails"],
     },
     location: { type: String, default: "", maxlength: 300 },
     maxParticipants: { type: Number, min: 1 },

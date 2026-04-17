@@ -17,11 +17,13 @@ import ProximityCallPrompt from "./ProximityCallPrompt";
 import FocusRoomPanel from "./FocusRoomPanel";
 import GitHubPanel from "./GitHubPanel";
 import GroupCallPanel from "./GroupCallPanel";
+import InteractPrompt from "./InteractPrompt";
 import { useRouter } from "next/navigation";
 import { useModal } from "../hooks/useModal";
 import signal from "@/utils/signal";
 import IntroScreen from "./IntroScreen";
 import ElevatorMenu from "./ElevatorMenu";
+import { Zone } from "@/utils/zones";
 
 type PlayClientProps = {
   mapData: RealmData;
@@ -58,8 +60,10 @@ const PlayClient: React.FC<PlayClientProps> = ({
   const [showLibraryPanel, setShowLibraryPanel] = useState(false);
   const [showForumPanel, setShowForumPanel] = useState(false);
   const [showServicesPanel, setShowServicesPanel] = useState(false);
+  const [showFocusPanel, setShowFocusPanel] = useState(false);
+  const [showGitHubPanel, setShowGitHubPanel] = useState(false);
   const [libraryType, setLibraryType] = useState("all");
-  const [lastAutoOpened, setLastAutoOpened] = useState<string | null>(null);
+  const [currentZone, setCurrentZone] = useState<Zone | null>(null);
   const [inviteUrl, setInviteUrl] = useState("");
   const [isAuthRedirecting, setIsAuthRedirecting] = useState(false);
 
@@ -84,40 +88,39 @@ const PlayClient: React.FC<PlayClientProps> = ({
     };
     const onSwitchSkin = (skin: string) => setSkin(skin);
 
-    const onZoneChanged = (zone: any) => {
+    const onZoneChanged = (zone: Zone | null) => {
+      setCurrentZone(zone);
       if (!zone) {
-        // If we previously auto-opened a panel, close it when leaving the zone
-        if (lastAutoOpened === "forum") setShowForumPanel(false);
-        if (lastAutoOpened === "library") setShowLibraryPanel(false);
-        if (lastAutoOpened === "events") setShowCalendarPanel(false);
-        setLastAutoOpened(null);
+        setShowForumPanel(false);
+        setShowLibraryPanel(false);
+        setShowCalendarPanel(false);
+        setShowFocusPanel(false);
+        setShowGitHubPanel(false);
         return;
       }
-
-      if (zone.type === "forum") {
-        setShowForumPanel(true);
-        setLastAutoOpened("forum");
-      }
+    };
+    const onZoneInteract = (zone: Zone) => {
+      if (zone.type === "forum") setShowForumPanel(true);
       if (zone.type === "library") {
-        setLibraryType(zone.id.includes("tech") ? "guide" : "all"); // Example logic
+        setLibraryType(zone.id.includes("tech") ? "guide" : "all");
         setShowLibraryPanel(true);
-        setLastAutoOpened("library");
       }
-      if (zone.type === "events") {
-        setShowCalendarPanel(true);
-        setLastAutoOpened("events");
-      }
+      if (zone.type === "events") setShowCalendarPanel(true);
+      if (zone.type === "focus") setShowFocusPanel(true);
+      if (zone.type === "github") setShowGitHubPanel(true);
     };
 
     signal.on("showKickedModal", onShowKickedModal);
     signal.on("showDisconnectModal", onShowDisconnectModal);
     signal.on("switchSkin", onSwitchSkin);
     signal.on("playerZoneChanged", onZoneChanged);
+    signal.on("zoneInteract", onZoneInteract);
     return () => {
       signal.off("showKickedModal", onShowKickedModal);
       signal.off("showDisconnectModal", onShowDisconnectModal);
       signal.off("switchSkin", onSwitchSkin);
       signal.off("playerZoneChanged", onZoneChanged);
+      signal.off("zoneInteract", onZoneInteract);
     };
   }, []);
 
@@ -163,8 +166,14 @@ const PlayClient: React.FC<PlayClientProps> = ({
             <MapZoomControls />
             <MiniMap />
             <OverviewMap />
-            <FocusRoomPanel />
-            <GitHubPanel />
+            <FocusRoomPanel
+              open={showFocusPanel}
+              onClose={() => setShowFocusPanel(false)}
+            />
+            <GitHubPanel
+              open={showGitHubPanel}
+              onClose={() => setShowGitHubPanel(false)}
+            />
             <GroupCallPanel username={username} realmId={realmId} />
             <PixiApp
               mapData={mapData}
@@ -192,6 +201,9 @@ const PlayClient: React.FC<PlayClientProps> = ({
             )}
             {showServicesPanel && (
               <ServicesPanel realmId={realmId} uid={uid} username={username} />
+            )}
+            {currentZone && (
+              <InteractPrompt label={`Press E to interact with ${currentZone.name}`} />
             )}
             <ProximityCallPrompt uid={uid} username={username} />
             <PlayNavbar

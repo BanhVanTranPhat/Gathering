@@ -4,8 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"bun run --cwd backend dev\" \"sh -c 'if lsof -ti:5173 >/dev/null; then echo [frontend] port 5173 already in use, skipping start.; else bun run --cwd frontend dev; fi'\"",
-    "dev:elysia": "concurrently \"bun run --cwd backend dev:elysia\" \"sh -c 'if lsof -ti:5173 >/dev/null; then echo [frontend] port 5173 already in use, skipping start.; else bun run --cwd frontend dev; fi'\"",
+    "dev": "concurrently \"bun run --cwd backend dev\" \"bun run --cwd frontend dev\"",
+    "dev:elysia": "concurrently \"bun run --cwd backend dev:elysia\" \"bun run --cwd frontend dev\"",
     "install:all": "bun install && bun install --cwd backend && bun install --cwd frontend"
   },
   "devDependencies": {

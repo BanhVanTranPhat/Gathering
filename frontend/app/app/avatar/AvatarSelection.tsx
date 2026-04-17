@@ -2,15 +2,34 @@
 
 import React, { useState, useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { CATEGORIES, ASSETS, LAYER_ORDER, DEFAULT_AVATAR_CONFIG } from '@/utils/avatarAssets'
-import { AvatarPreview } from '@/app/components/AvatarPreview'
-import { avatars } from '@/app/config/gatherAssets'
+import {
+  CATEGORIES,
+  ASSETS,
+  LAYER_ORDER,
+  DEFAULT_AVATAR_CONFIG,
+  FEMALE_AVATAR_CONFIG,
+  MALE_AVATAR_CONFIG,
+} from '@/utils/avatarAssets'
 import SpriteIcon from '@/components/SpriteIcon'
 import { createClient } from '@/utils/auth/client'
 
-const DEMO_COLORS = ['#FF5733', '#FFBD33', '#DBFF33', '#75FF33', '#33FF57', '#33FFBD', '#33DBFF', '#3357FF', '#7533FF', '#FF33BD']
+const COLOR_OPTIONS = [
+  { label: 'Mặc định', hue: 0, color: '#d9dce6' },
+  { label: 'Đỏ', hue: 330, color: '#ef4444' },
+  { label: 'Cam', hue: 20, color: '#f97316' },
+  { label: 'Vàng', hue: 70, color: '#eab308' },
+  { label: 'Xanh lá', hue: 130, color: '#22c55e' },
+  { label: 'Lam', hue: 190, color: '#06b6d4' },
+  { label: 'Xanh dương', hue: 220, color: '#3b82f6' },
+  { label: 'Tím', hue: 270, color: '#a855f7' },
+]
 
-export default function AvatarSelection() {
+type AvatarSelectionProps = {
+  embedded?: boolean
+  onSaved?: () => void
+}
+
+export default function AvatarSelection({ embedded = false, onSaved }: AvatarSelectionProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
   const returnUrl = searchParams.get('return') || '/app'
@@ -24,10 +43,13 @@ export default function AvatarSelection() {
 
   useEffect(() => {
     setErrorMsg(null)
-    auth.from('profiles').then((r: any) => {
+    auth.from('profiles').select('avatarConfig, displayName, gender').single().then((r: any) => {
       const profile = r?.data
+      const profileGender = profile?.gender === 'female' ? 'female' : 'male'
       if (profile?.avatarConfig && typeof profile.avatarConfig === 'object' && Object.keys(profile.avatarConfig).length > 0) {
         setAvatarConfig((prev) => ({ ...DEFAULT_AVATAR_CONFIG, ...profile.avatarConfig }))
+      } else {
+        setAvatarConfig(profileGender === 'female' ? { ...FEMALE_AVATAR_CONFIG } : { ...MALE_AVATAR_CONFIG })
       }
       if (profile?.displayName) setDisplayName(profile.displayName)
     }).catch(() => {})
@@ -47,11 +69,17 @@ export default function AvatarSelection() {
 
     setLoading(true)
     try {
-      const { error } = await auth.from('profiles').update({ avatarConfig, displayName: displayName.trim() })
+      const { error } = await auth
+        .from('profiles')
+        .update({ avatarConfig, displayName: displayName.trim() })
       if (error) throw new Error(error.message)
 
-      router.push(returnUrl)
-      router.refresh()
+      if (embedded) {
+        onSaved?.()
+      } else {
+        router.push(returnUrl)
+        router.refresh()
+      }
     } catch (err: any) {
       setErrorMsg(err?.message || 'Lỗi lưu avatar. Vui lòng thử lại.')
     } finally {
@@ -60,11 +88,20 @@ export default function AvatarSelection() {
   }
 
   const handleCancel = () => {
+    if (embedded) {
+      onSaved?.()
+      return
+    }
     router.push(returnUrl)
   }
 
+  const getHue = (layerKey: string) => {
+    const value = Number(avatarConfig[`hue_${layerKey}`] || '0')
+    return Number.isFinite(value) ? value : 0
+  }
+
   return (
-    <div className="flex-1 flex overflow-hidden min-h-0">
+    <div className={`flex-1 flex overflow-hidden min-h-0 ${embedded ? 'rounded-2xl border border-slate-200 bg-[#282d4e] text-white' : ''}`}>
         {/* Sidebar */}
         <div className="w-64 shrink-0 border-r border-white/10 bg-secondary/50 p-4 flex flex-col gap-2 overflow-y-auto">
           <h2 className="text-xl font-bold px-4 mb-4 mt-2">Chỉnh avatar</h2>
@@ -97,7 +134,9 @@ export default function AvatarSelection() {
                     onClick={() => setAvatarConfig({ ...avatarConfig, [selectedCategory]: item.id })}
                   >
                     {item.src ? (
-                      <SpriteIcon src={item.src} x={item.x || 0} y={item.y || 0} scale={1} />
+                      <div style={{ filter: getHue(selectedCategory) ? `hue-rotate(${getHue(selectedCategory)}deg)` : undefined }}>
+                        <SpriteIcon src={item.src} x={item.x || 0} y={item.y || 0} scale={1} />
+                      </div>
                     ) : (
                       <div className="w-10 h-10 rounded-full bg-white/20" style={{ backgroundColor: item.color || '#fff3' }} />
                     )}
@@ -106,17 +145,37 @@ export default function AvatarSelection() {
               })}
             </div>
           </div>
-          <div className="mt-6 p-4 rounded-2xl border border-white/10 flex gap-3 overflow-x-auto items-center">
-            {avatars.map((avatar) => (
-              <div key={avatar.id} className="shrink-0">
-                <AvatarPreview avatarId={avatar.id} />
-              </div>
-            ))}
+          <div className="mt-6 p-4 rounded-2xl border border-white/10 bg-secondary/20">
+            <p className="text-sm font-semibold mb-2">Màu sắc</p>
+            <p className="text-xs text-white/60 mb-3">
+              Đang chỉnh màu cho: {CATEGORIES.find((cat) => cat.id === selectedCategory)?.label || 'Avatar'}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {COLOR_OPTIONS.map((colorOption) => (
+                <button
+                  key={colorOption.label}
+                  type="button"
+                  title={colorOption.label}
+                  onClick={() =>
+                    setAvatarConfig((prev) => ({
+                      ...prev,
+                      [`hue_${selectedCategory}`]: String(colorOption.hue),
+                    }))
+                  }
+                  className={`h-8 w-8 rounded-full border-2 transition ${
+                    getHue(selectedCategory) === colorOption.hue
+                      ? 'border-quaternary scale-105'
+                      : 'border-white/30 hover:scale-105'
+                  }`}
+                  style={{ backgroundColor: colorOption.color }}
+                />
+              ))}
+            </div>
           </div>
         </div>
 
         {/* Preview */}
-        <div className="w-[450px] shrink-0 border-l border-white/10 flex flex-col items-center justify-center relative bg-secondary/5">
+        <div className="w-[450px] shrink-0 border-l border-white/10 flex flex-col relative bg-secondary/5 min-h-0">
           <div className="absolute inset-0 opacity-20 pointer-events-none bg-[linear-gradient(#ccc_1px,transparent_1px),linear-gradient(90deg,#ccc_1px,transparent_1px)] bg-[length:40px_40px]" />
           <div className="absolute top-6 left-6 right-6 z-30">
             <input
@@ -126,26 +185,32 @@ export default function AvatarSelection() {
               placeholder="Tên nhân vật..."
             />
           </div>
-          <div className="relative z-10 scale-[4]">
-            <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-white text-[8px] px-2 py-0.5 rounded-full whitespace-nowrap z-20 font-bold bg-black/80">
-              {displayName || 'Player'}
-            </div>
-            <div className="relative w-[64px] h-[64px]">
-              {LAYER_ORDER.map((layerKey) => {
-                const itemId = avatarConfig[layerKey]
-                const itemData = ASSETS[layerKey]?.find((i: any) => i.id === itemId)
-                if (itemData?.src) {
-                  return (
-                    <div key={layerKey} className="absolute inset-0 w-full h-full pointer-events-none">
-                      <SpriteIcon src={itemData.src} x={itemData.x || 0} y={itemData.y || 0} size={64} />
-                    </div>
-                  )
-                }
-                return null
-              })}
+          <div className="relative z-10 flex-1 flex items-center justify-center min-h-0 pt-20 pb-20">
+            <div className="scale-[4]">
+              <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-white text-[8px] px-2 py-0.5 rounded-full whitespace-nowrap z-20 font-bold bg-black/80">
+                {displayName || 'Player'}
+              </div>
+              <div className="relative w-[64px] h-[64px]">
+                {LAYER_ORDER.map((layerKey) => {
+                  const itemId = avatarConfig[layerKey]
+                  const itemData = ASSETS[layerKey]?.find((i: any) => i.id === itemId)
+                  if (itemData?.src) {
+                    return (
+                      <div
+                        key={layerKey}
+                        className="absolute inset-0 w-full h-full pointer-events-none"
+                        style={{ filter: getHue(layerKey) ? `hue-rotate(${getHue(layerKey)}deg)` : undefined }}
+                      >
+                        <SpriteIcon src={itemData.src} x={itemData.x || 0} y={itemData.y || 0} size={64} />
+                      </div>
+                    )
+                  }
+                  return null
+                })}
+              </div>
             </div>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-white/10 flex justify-end gap-3 z-30 bg-secondary/50">
+          <div className="relative z-30 p-6 border-t border-white/10 flex justify-end gap-3 bg-secondary/60 backdrop-blur-sm">
             <button
               className="px-6 py-2.5 rounded-xl font-semibold text-white/80 hover:bg-white/5"
               onClick={handleCancel}
@@ -161,7 +226,7 @@ export default function AvatarSelection() {
               {loading ? 'Đang lưu...' : 'Xong'}
             </button>
           </div>
-          {errorMsg && <div className="absolute bottom-20 left-6 right-6 text-sm text-red-400 text-center">{errorMsg}</div>}
+          {errorMsg && <div className="relative z-30 px-6 pb-4 text-sm text-red-400 text-center">{errorMsg}</div>}
         </div>
     </div>
   )

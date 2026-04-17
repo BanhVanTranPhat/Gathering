@@ -1,23 +1,20 @@
 'use client'
 
 import React, { useEffect, useState, useCallback } from 'react'
-import signal from '@/utils/signal'
-import { Zone } from '@/utils/zones'
 import { Github, X, ExternalLink, GitCommitHorizontal, GitPullRequest, Star } from 'lucide-react'
 
-const GitHubPanel: React.FC = () => {
-    const [currentZone, setCurrentZone] = useState<Zone | null>(null)
+type GitHubPanelProps = {
+    open: boolean
+    onClose: () => void
+}
+
+const GitHubPanel: React.FC<GitHubPanelProps> = ({ open, onClose }) => {
     const [repoUrl, setRepoUrl] = useState('')
     const [connected, setConnected] = useState(false)
-    const [showPanel, setShowPanel] = useState(true)
 
     useEffect(() => {
-        const onZoneChanged = (zone: Zone | null) => {
-            setCurrentZone(zone)
-        }
-        signal.on('playerZoneChanged', onZoneChanged)
-        return () => signal.off('playerZoneChanged', onZoneChanged)
-    }, [])
+        if (!open) setConnected(false)
+    }, [open])
 
     const handleConnect = useCallback(() => {
         if (repoUrl.trim()) {
@@ -25,18 +22,7 @@ const GitHubPanel: React.FC = () => {
         }
     }, [repoUrl])
 
-    if (currentZone?.type !== 'github') return null
-    if (!showPanel) {
-        return (
-            <button
-                onClick={() => setShowPanel(true)}
-                className="absolute top-3 right-3 z-30 bg-emerald-500/90 hover:bg-emerald-500 text-white p-2 rounded-full shadow-lg transition-all"
-                title="Show GitHub panel"
-            >
-                <Github size={16} />
-            </button>
-        )
-    }
+    if (!open) return null
 
     return (
         <div className="absolute top-3 right-3 z-30 w-80 animate-fade-in">
@@ -55,7 +41,7 @@ const GitHubPanel: React.FC = () => {
                             </div>
                         </div>
                         <button
-                            onClick={() => setShowPanel(false)}
+                            onClick={onClose}
                             className="text-white/30 hover:text-white/60 p-1"
                         >
                             <X size={14} />

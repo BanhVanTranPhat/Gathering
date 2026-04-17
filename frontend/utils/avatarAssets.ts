@@ -14,6 +14,26 @@ export const DEFAULT_AVATAR_CONFIG: Record<string, string> = {
   glasses: 'none',
   other: 'none',
 }
+
+export const MALE_AVATAR_CONFIG: Record<string, string> = {
+  ...DEFAULT_AVATAR_CONFIG,
+  skin: 'skin_1',
+  hair: 'hair_2',
+  head: 'head_2',
+  top: 'top_3',
+  bottom: 'pants_2',
+  shoes: 'shoe_2',
+}
+
+export const FEMALE_AVATAR_CONFIG: Record<string, string> = {
+  ...DEFAULT_AVATAR_CONFIG,
+  skin: 'skin_4',
+  hair: 'hair_6',
+  head: 'head_5',
+  top: 'top_1',
+  bottom: 'pants_1',
+  shoes: 'shoe_1',
+}
 const IDLE_DOWN_Y = 10 * TILE_SIZE
 const IDLE_DOWN_X = 0 * TILE_SIZE
 

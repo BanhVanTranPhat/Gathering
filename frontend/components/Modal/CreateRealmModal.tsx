@@ -14,6 +14,7 @@ import collabCampusMap from "@/utils/collabcampusmap.json";
 import companyMap from "@/utils/companymap.json";
 import starMapsMap from "@/utils/starmapsmap.json";
 import workadventureStarterMap from "@/utils/workadventureStarterMap.json";
+import { buildOfficeMapTemplate } from "@/utils/convertOfficeMapTemplate";
 
 type MapTemplate =
   | "home"
@@ -21,6 +22,7 @@ type MapTemplate =
   | "company"
   | "starMaps"
   | "workadventureStarter"
+  | "theGathering03Office"
   | "blank";
 
 const MAP_TEMPLATES: {
@@ -72,6 +74,14 @@ const MAP_TEMPLATES: {
     iconBgClass: "bg-sky-500/20",
   },
   {
+    value: "theGathering03Office",
+    label: "The Gathering 03 Office",
+    description: "Imported office layout from the-gathering-03 (single room)",
+    color: "#14b8a6",
+    icon: "📚",
+    iconBgClass: "bg-teal-500/20",
+  },
+  {
     value: "blank",
     label: "Blank",
     description: "Empty map, build from zero",
@@ -120,6 +130,8 @@ const CreateRealmModal: React.FC = () => {
       realmData.map_data = starMapsMap;
     } else if (template === "workadventureStarter") {
       realmData.map_data = workadventureStarterMap;
+    } else if (template === "theGathering03Office") {
+      realmData.map_data = buildOfficeMapTemplate();
     }
 
     const { data, error } = await auth

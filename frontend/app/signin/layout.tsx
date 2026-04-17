@@ -1,10 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { GoogleOAuthProvider } from '@react-oauth/google'
 import VideoDemo from './VideoDemo'
-
-const GOOGLE_CLIENT_ID = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID || ''
 
 export default function SignInLayout({
   children,
@@ -53,9 +50,5 @@ export default function SignInLayout({
     </div>
   )
 
-  if (!GOOGLE_CLIENT_ID) {
-    return content
-  }
-
-  return <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>{content}</GoogleOAuthProvider>
+  return content
 }

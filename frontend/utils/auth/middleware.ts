@@ -1,6 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server";
 
-const PROTECTED_PREFIXES = ["/app", "/admin", "/profile", "/play"];
+const PROTECTED_PREFIXES = ["/app", "/home", "/admin", "/profile", "/play"];
 
 export const updateSession = async (request: NextRequest) => {
   const { pathname } = request.nextUrl;

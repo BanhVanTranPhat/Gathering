@@ -4,8 +4,7 @@ import { useModal } from '@/app/hooks/useModal'
 import { Dialog, Transition } from '@headlessui/react'
 import { createClient } from '@/utils/auth/client'
 import { useRouter } from 'next/navigation'
-import { UserCircleIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
-import { TShirt } from '@phosphor-icons/react'
+import { ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
 
 const AccountDropdown: React.FC = () => {
     const { modal, setModal } = useModal()
@@ -48,20 +47,6 @@ const AccountDropdown: React.FC = () => {
                             <Dialog.Panel tabIndex={0} className="bg-secondary border border-light-secondary rounded-lg shadow-xl overflow-hidden min-w-[200px] h-fit">
                                 <button
                                     className="w-full flex items-center gap-3 px-4 py-3 text-left text-white hover:bg-light-secondary animate-colors"
-                                    onClick={() => setModal('Avatar Picker')}
-                                >
-                                    <UserCircleIcon className="w-5 h-5" />
-                                    Đổi avatar
-                                </button>
-                                <button
-                                    className="w-full flex items-center gap-3 px-4 py-3 text-left text-white hover:bg-light-secondary animate-colors border-t border-light-secondary"
-                                    onClick={() => { setModal('None'); router.push('/app/avatar') }}
-                                >
-                                    <TShirt className="w-5 h-5" weight="regular" />
-                                    Đổi avatar nhân vật
-                                </button>
-                                <button
-                                    className="w-full flex items-center gap-3 px-4 py-3 text-left text-white hover:bg-light-secondary animate-colors border-t border-light-secondary"
                                     onClick={handleSignOut}
                                 >
                                     <ArrowRightOnRectangleIcon className="w-5 h-5" />

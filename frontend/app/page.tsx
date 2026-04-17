@@ -13,7 +13,7 @@ export default function Home() {
     if (typeof window === 'undefined') return
     const token = localStorage.getItem(TOKEN_KEY) || document.cookie.includes(TOKEN_KEY)
     if (token) {
-      router.replace('/app')
+      router.replace('/home')
     }
   }, [router])
 

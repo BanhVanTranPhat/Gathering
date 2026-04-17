@@ -2,6 +2,7 @@ import mongoose, { Document, Schema } from 'mongoose'
 
 export interface IProfile extends Document {
   id: string
+  gender?: 'male' | 'female'
   skin?: string
   avatar?: string
   avatarConfig?: Record<string, string>
@@ -15,6 +16,7 @@ export interface IProfile extends Document {
 const profileSchema = new Schema<IProfile>(
   {
     id: { type: String, required: true, unique: true },
+    gender: { type: String, enum: ['male', 'female'], default: 'male' },
     skin: { type: String },
     avatar: { type: String },
     avatarConfig: { type: Schema.Types.Mixed },

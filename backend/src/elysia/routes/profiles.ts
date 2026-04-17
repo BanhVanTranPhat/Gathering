@@ -42,13 +42,17 @@ export const profileRoutes = new Elysia({ prefix: '/profiles' })
     
     const b = body as any
     const allowed: Record<string, unknown> = {}
-    const ALLOWED_FIELDS = ['displayName', 'bio', 'avatar', 'skin', 'avatarConfig'] as const
+    const ALLOWED_FIELDS = ['displayName', 'bio', 'avatar', 'skin', 'avatarConfig', 'gender'] as const
     for (const key of ALLOWED_FIELDS) {
       if (b[key] !== undefined) allowed[key] = b[key]
     }
     
     if (typeof allowed.displayName === 'string') allowed.displayName = allowed.displayName.slice(0, 100)
     if (typeof allowed.bio === 'string') allowed.bio = allowed.bio.slice(0, 500)
+    if (allowed.gender !== undefined && allowed.gender !== 'male' && allowed.gender !== 'female') {
+      set.status = 400
+      return { message: 'gender must be male or female' }
+    }
 
     const profile = await Profile.findOneAndUpdate(
       { id: userId },

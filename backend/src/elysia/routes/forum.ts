@@ -41,6 +41,7 @@ export const forumRoutes = new Elysia({ prefix: '/forum' })
     const threadsWithPermissions = threads.map((thread: any) => ({
       ...thread,
       canDelete: isAdmin || (currentUserId && thread.authorId === currentUserId),
+      canEdit: isAdmin || (currentUserId && thread.authorId === currentUserId),
     }))
 
     return {
@@ -73,6 +74,7 @@ export const forumRoutes = new Elysia({ prefix: '/forum' })
     const threadWithPermissions = {
       ...thread,
       canDelete: isAdmin || (currentUserId && thread.authorId === currentUserId),
+      canEdit: isAdmin || (currentUserId && thread.authorId === currentUserId),
     }
     const postsWithPermissions = posts.map((post: any) => ({
       ...post,
@@ -167,6 +169,36 @@ export const forumRoutes = new Elysia({ prefix: '/forum' })
     await Thread.deleteOne({ _id: thread._id })
     set.status = 204
     return
+  })
+  .patch('/threads/:id', async ({ params, body, user, set }) => {
+    if (!user) {
+      set.status = 401
+      return { message: 'Unauthorized' }
+    }
+    const userId = (user as any).userId || (user as any).id
+    const isAdmin = (user as any).role === 'admin'
+    const thread = await Thread.findById(params.id)
+    if (!thread) {
+      set.status = 404
+      return { message: 'Not found' }
+    }
+    if (thread.authorId !== userId && !isAdmin) {
+      set.status = 403
+      return { message: 'Forbidden' }
+    }
+
+    const { title, body: threadBody } = body as any
+    const nextTitle = String(title || '').trim()
+    if (!nextTitle) {
+      set.status = 400
+      return { message: 'title required' }
+    }
+
+    thread.title = nextTitle.slice(0, 300)
+    thread.body = String(threadBody || '').slice(0, 5000)
+    thread.lastPostAt = new Date()
+    await thread.save()
+    return { thread }
   })
   .post('/threads/:id/like', async ({ params, user, set }) => {
     if (!user) {

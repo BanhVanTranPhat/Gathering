@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { AVATAR_PRESETS } from "@/utils/avatarPresets";
 import { UserAvatarDisplay } from "../UserAvatarDisplay";
-import { api } from "@/utils/backendApi";
+import { createClient } from "@/utils/auth/client";
 
 interface AvatarPickerModalProps {
   isOpen: boolean;
@@ -23,52 +22,75 @@ export default function AvatarPickerModal({
   displayName,
   onSelect,
 }: AvatarPickerModalProps) {
-  const [uploading, setUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const fileInputRef = useRef<HTMLInputElement>(null);
-  const backendUrl =
-    process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:5001";
+  const [gender, setGender] = useState<"male" | "female">("male");
+  const [onlineUrl, setOnlineUrl] = useState("");
 
-  const handlePresetClick = (presetId: string) => {
+  useEffect(() => {
+    const auth = createClient();
+    auth
+      .from("profiles")
+      .select("gender")
+      .single()
+      .then(({ data }: { data: { gender?: string } | null }) => {
+        setGender(data?.gender === "female" ? "female" : "male");
+      })
+      .catch(() => {
+        setGender("male");
+      });
+  }, []);
+
+  const defaultAvatarByGender = useMemo(() => {
+    const seed = encodeURIComponent(displayName || "user");
+    const variant = gender === "female" ? "female" : "male";
+    return `https://api.dicebear.com/8.x/notionists/svg?seed=${seed}-${variant}`;
+  }, [displayName, gender]);
+
+  const handleUseDefaultAvatar = () => {
     setError(null);
-    onSelect(presetId);
+    onSelect(defaultAvatarByGender);
     onClose();
   };
 
-  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-    if (!file.type.startsWith("image/")) {
-      setError("Chỉ chấp nhận file ảnh (JPG, PNG, GIF, WebP).");
+  const handleUseOnlineUrl = () => {
+    const value = onlineUrl.trim();
+    if (!value) {
+      setError("Vui lòng nhập URL ảnh online.");
+      return;
+    }
+    let parsed: URL;
+    try {
+      parsed = new URL(value);
+    } catch {
+      setError("URL không hợp lệ.");
+      return;
+    }
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      setError("Chỉ hỗ trợ URL bắt đầu bằng http hoặc https.");
       return;
     }
     setError(null);
-    setUploading(true);
+    onSelect(value);
+    onClose();
+  };
+
+  const handleResetToDefault = () => {
+    setOnlineUrl("");
+    setError(null);
+  };
+
+  const handleGenderSwitch = async (nextGender: "male" | "female") => {
+    setError(null);
+    setGender(nextGender);
     try {
-      const formData = new FormData();
-      formData.append("file", file);
-      const data = await api.postForm<{ file?: { url?: string }; message?: string }>(
-        "/api/uploads",
-        formData,
-      );
-      const url = data?.file?.url;
-      if (!url) throw new Error("Không nhận được URL ảnh");
-      const fullUrl = url.startsWith("http") ? url : `${backendUrl}${url}`;
-      onSelect(fullUrl);
-      onClose();
-    } catch (err: any) {
-      if (err?.status === 408) {
-        setError("Tải ảnh lên quá hạn. Vui lòng thử lại.");
-      } else {
-        setError(
-          err?.message || "Tải ảnh lên thất bại. (Tính năng đang phát triển)",
-        );
-      }
-    } finally {
-      setUploading(false);
-      e.target.value = "";
+      const auth = createClient();
+      await auth.from("profiles").update({ gender: nextGender });
+    } catch {
+      // Keep UI responsive even if gender persistence fails.
     }
   };
+
+  const currentAvatarPreview = currentAvatar || defaultAvatarByGender;
 
   if (!isOpen) return null;
 
@@ -95,7 +117,7 @@ export default function AvatarPickerModal({
         </p>
         <div className="flex justify-center mb-6">
           <UserAvatarDisplay
-            avatar={currentAvatar}
+            avatar={currentAvatarPreview}
             profileColor={profileColor}
             displayName={displayName}
             size="lg"
@@ -103,46 +125,66 @@ export default function AvatarPickerModal({
         </div>
 
         <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
-          Avatar cơ bản
+          Avatar mặc định theo giới tính
         </p>
-        <div className="grid grid-cols-5 gap-2 mb-6">
-          {AVATAR_PRESETS.map((preset) => (
-            <button
-              key={preset.id}
-              type="button"
-              onClick={() => handlePresetClick(preset.id)}
-              className="w-12 h-12 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 flex items-center justify-center text-2xl transition-colors border-2 border-transparent hover:border-teal-500"
-              title={preset.label}
-            >
-              {preset.emoji}
-            </button>
-          ))}
+        <div className="grid grid-cols-2 gap-2 mb-3">
+          <button
+            type="button"
+            onClick={() => void handleGenderSwitch("male")}
+            className={`rounded-xl border px-3 py-2 text-sm font-semibold transition ${
+              gender === "male"
+                ? "border-teal-500 bg-teal-50 text-teal-700 dark:bg-teal-900/20"
+                : "border-gray-300 text-gray-700 dark:text-gray-300"
+            }`}
+          >
+            Nam
+          </button>
+          <button
+            type="button"
+            onClick={() => void handleGenderSwitch("female")}
+            className={`rounded-xl border px-3 py-2 text-sm font-semibold transition ${
+              gender === "female"
+                ? "border-teal-500 bg-teal-50 text-teal-700 dark:bg-teal-900/20"
+                : "border-gray-300 text-gray-700 dark:text-gray-300"
+            }`}
+          >
+            Nữ
+          </button>
         </div>
-
-        <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
-          Tải ảnh lên
-        </p>
-        <label htmlFor="avatar-upload-input" className="sr-only">
-          Chọn ảnh avatar để tải lên
-        </label>
-        <input
-          id="avatar-upload-input"
-          ref={fileInputRef}
-          type="file"
-          accept="image/jpeg,image/png,image/gif,image/webp"
-          className="hidden"
-          onChange={handleFileChange}
-          title="Chọn ảnh avatar"
-          aria-label="Chọn ảnh avatar"
-        />
         <button
           type="button"
-          onClick={() => fileInputRef.current?.click()}
-          disabled={uploading}
-          className="w-full py-3 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-xl text-gray-600 dark:text-gray-400 hover:border-teal-500 hover:text-teal-500 hover:bg-teal-50 dark:hover:bg-teal-900/20 transition-colors disabled:opacity-50"
+          onClick={handleUseDefaultAvatar}
+          className="w-full py-2.5 mb-6 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-500 transition"
         >
-          {uploading ? "Đang tải lên…" : "Chọn ảnh từ máy"}
+          Dùng avatar mặc định ({gender === "female" ? "Nữ" : "Nam"})
         </button>
+
+        <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
+          URL ảnh online
+        </p>
+        <input
+          type="url"
+          value={onlineUrl}
+          onChange={(e) => setOnlineUrl(e.target.value)}
+          placeholder="https://example.com/avatar.jpg"
+          className="w-full rounded-xl border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm mb-2 bg-white dark:bg-gray-900"
+        />
+        <div className="grid grid-cols-2 gap-2">
+          <button
+            type="button"
+            onClick={handleUseOnlineUrl}
+            className="py-2.5 rounded-xl border border-teal-500 text-teal-600 font-semibold hover:bg-teal-50 dark:hover:bg-teal-900/20 transition"
+          >
+            Dùng URL này
+          </button>
+          <button
+            type="button"
+            onClick={handleResetToDefault}
+            className="py-2.5 rounded-xl border border-gray-300 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+          >
+            Xóa URL
+          </button>
+        </div>
         {error && (
           <p className="mt-2 text-sm text-red-600 dark:text-red-400">{error}</p>
         )}

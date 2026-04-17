@@ -846,6 +846,15 @@ export class Player {
     );
   };
 
+  public isSitting = () => this.animationState === "sit_down";
+
+  public standUp = () => {
+    if (!this.isLocal) return;
+    signal.emit("playerSitting", false);
+    signal.emit("leaveGroupCall");
+    this.changeAnimationState(`idle_${this.direction}` as AnimationState);
+  };
+
   public setMovementMode = (mode: "keyboard" | "mouse") => {
     this.movementMode = mode;
   };

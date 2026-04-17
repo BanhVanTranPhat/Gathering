@@ -1,6 +1,7 @@
 import { DM_Sans } from 'next/font/google'
 import "./globals.css";
 import Layout from '@/components/Layout/Layout'
+import GoogleProvider from './providers/GoogleProvider';
 
 const dmSans = DM_Sans({
     subsets: ['latin'],
@@ -25,9 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={dmSans.className}>
       <body>
-        <Layout>
-            {children}
-        </Layout>
+        <GoogleProvider>
+          <Layout>
+              {children}
+          </Layout>
+        </GoogleProvider>
       </body>
     </html>
   );

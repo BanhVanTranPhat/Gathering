@@ -1,8 +1,6 @@
 'use client'
 
 import React, { useEffect, useState, useCallback } from 'react'
-import signal from '@/utils/signal'
-import { Zone } from '@/utils/zones'
 import { Music, X, Play, Pause, Volume2 } from 'lucide-react'
 
 const LOFI_STREAMS = [
@@ -12,23 +10,19 @@ const LOFI_STREAMS = [
     { name: 'Study Music', videoId: 'TURbeWK2wwg' },
 ]
 
-const FocusRoomPanel: React.FC = () => {
-    const [currentZone, setCurrentZone] = useState<Zone | null>(null)
+type FocusRoomPanelProps = {
+    open: boolean
+    onClose: () => void
+}
+
+const FocusRoomPanel: React.FC<FocusRoomPanelProps> = ({ open, onClose }) => {
     const [playing, setPlaying] = useState(false)
     const [selectedStream, setSelectedStream] = useState(0)
     const [customUrl, setCustomUrl] = useState('')
-    const [showPanel, setShowPanel] = useState(true)
 
     useEffect(() => {
-        const onZoneChanged = (zone: Zone | null) => {
-            setCurrentZone(zone)
-            if (zone?.type !== 'focus') {
-                setPlaying(false)
-            }
-        }
-        signal.on('playerZoneChanged', onZoneChanged)
-        return () => signal.off('playerZoneChanged', onZoneChanged)
-    }, [])
+        if (!open) setPlaying(false)
+    }, [open])
 
     const getVideoId = useCallback((): string => {
         if (customUrl) {
@@ -38,18 +32,7 @@ const FocusRoomPanel: React.FC = () => {
         return LOFI_STREAMS[selectedStream].videoId
     }, [customUrl, selectedStream])
 
-    if (currentZone?.type !== 'focus') return null
-    if (!showPanel) {
-        return (
-            <button
-                onClick={() => setShowPanel(true)}
-                className="absolute top-3 right-3 z-30 bg-amber-500/90 hover:bg-amber-500 text-white p-2 rounded-full shadow-lg transition-all"
-                title="Show music panel"
-            >
-                <Music size={16} />
-            </button>
-        )
-    }
+    if (!open) return null
 
     return (
         <div className="absolute top-3 right-3 z-30 w-80 animate-fade-in">
@@ -68,7 +51,7 @@ const FocusRoomPanel: React.FC = () => {
                             </div>
                         </div>
                         <button
-                            onClick={() => setShowPanel(false)}
+                            onClick={onClose}
                             className="text-white/30 hover:text-white/60 p-1"
                         >
                             <X size={14} />

@@ -549,6 +549,12 @@ export class PlayApp extends App {
   };
 
   private keydown = (event: KeyboardEvent) => {
+    const key = event.key.toLowerCase();
+    if (key === "e") {
+      if (this.disableInput || this.isTypingTarget(event.target)) return;
+      this.handleInteractKey();
+      return;
+    }
     if (this.keysDown.includes(event.key) || this.disableInput) return;
     this.player.keydown(event);
     this.keysDown.push(event.key);
@@ -556,6 +562,46 @@ export class PlayApp extends App {
 
   private keyup = (event: KeyboardEvent) => {
     this.keysDown = this.keysDown.filter((key) => key !== event.key);
+  };
+
+  private isTypingTarget = (target: EventTarget | null) => {
+    if (!(target instanceof HTMLElement)) return false;
+    const tag = target.tagName.toLowerCase();
+    return (
+      target.isContentEditable || tag === "input" || tag === "textarea" || tag === "select"
+    );
+  };
+
+  private handleInteractKey = () => {
+    if (this.player.frozen) return;
+
+    if (this.player.isSitting()) {
+      this.player.standUp();
+      return;
+    }
+
+    const { x, y } = this.player.currentTilePosition;
+    const neighbors: Array<{ x: number; y: number }> = [
+      { x, y: y - 1 },
+      { x: x + 1, y },
+      { x, y: y + 1 },
+      { x: x - 1, y },
+    ];
+    const seatTile = neighbors.find((tile) => this.hasSeatAtTile(tile.x, tile.y));
+    if (seatTile) {
+      this.player.moveToTile(seatTile.x, seatTile.y);
+      this.player.setMovementMode("keyboard");
+      return;
+    }
+
+    const zones =
+      this.realmData.rooms[0].name === "Collab Campus"
+        ? collabCampusZones
+        : companyOfficeZones;
+    const zone = getZoneAt(x, y, zones, this.currentRoomIndex);
+    if (zone) {
+      signal.emit("zoneInteract", zone);
+    }
   };
 
   public teleportIfOnTeleportSquare = (x: number, y: number) => {

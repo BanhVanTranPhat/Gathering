@@ -28,6 +28,15 @@ function sanitizeBreakoutRooms(value: any) {
     .slice(0, 10)
 }
 
+function sanitizeGuestEmails(value: any): string[] {
+  if (!Array.isArray(value)) return []
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  const normalized = value
+    .map((email) => String(email || '').trim().toLowerCase())
+    .filter((email) => emailRegex.test(email))
+  return Array.from(new Set(normalized)).slice(0, 100)
+}
+
 export const eventRoutes = new Elysia({ prefix: '/events' })
   .use(
     jwt({
@@ -89,6 +98,7 @@ export const eventRoutes = new Elysia({ prefix: '/events' })
       roomIndex,
       channelKey,
       breakoutRooms,
+      guestEmails,
     } = body as any
     if (!realmId || !title || !startTime || !endTime) {
       set.status = 400
@@ -106,6 +116,7 @@ export const eventRoutes = new Elysia({ prefix: '/events' })
     }
 
     const userId = (user as any).userId || (user as any).id
+    const safeGuestEmails = sanitizeGuestEmails(guestEmails)
     const event = await Event.create({
       eventId: uuidv4(),
       realmId,
@@ -122,7 +133,33 @@ export const eventRoutes = new Elysia({ prefix: '/events' })
       roomIndex: Number.isFinite(Number(roomIndex)) ? Number(roomIndex) : 0,
       channelKey: (channelKey || '').slice(0, 120),
       breakoutRooms: sanitizeBreakoutRooms(breakoutRooms),
+      guestEmails: safeGuestEmails,
     })
+
+    if (safeGuestEmails.length > 0) {
+      const webUrl = process.env.CLIENT_URL || process.env.FRONTEND_URL || 'http://localhost:5173'
+      const eventUrl = `${webUrl}/home/events`
+      const startLabel = parsedStart.toLocaleString('vi-VN')
+      const endLabel = parsedEnd.toLocaleString('vi-VN')
+      await Promise.allSettled(
+        safeGuestEmails.map((guestEmail) =>
+          sendEmail({
+            to: guestEmail,
+            subject: `Lời mời sự kiện: ${event.title}`,
+            html: `
+              <h2>Bạn được mời tham gia sự kiện</h2>
+              <p><strong>${event.title}</strong></p>
+              <p>Host: ${createdByName || "The Gathering Member"}</p>
+              <p>Bắt đầu: ${startLabel}</p>
+              <p>Kết thúc: ${endLabel}</p>
+              <p>Địa điểm: ${location || "The Gathering Metaverse"}</p>
+              <p>${description ? String(description).slice(0, 500) : ""}</p>
+              <p><a href="${eventUrl}">Mở The Gathering để xem lịch</a></p>
+            `,
+          }),
+        ),
+      )
+    }
 
     set.status = 201
     return { event }
@@ -164,6 +201,9 @@ export const eventRoutes = new Elysia({ prefix: '/events' })
     if (b.channelKey !== undefined) event.channelKey = String(b.channelKey).slice(0, 120)
     if (b.breakoutRooms !== undefined) {
       event.breakoutRooms = sanitizeBreakoutRooms(b.breakoutRooms) as any
+    }
+    if (b.guestEmails !== undefined) {
+      event.guestEmails = sanitizeGuestEmails(b.guestEmails)
     }
 
     await event.save()
