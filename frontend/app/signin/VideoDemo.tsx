@@ -1,6 +1,5 @@
 'use client'
 
-import { PUB } from "@/utils/assetPaths";
 import { Monitor, Play } from "lucide-react";
 
 export default function VideoDemo() {
@@ -26,15 +25,16 @@ export default function VideoDemo() {
             </div>
           </div>
 
-          <div className="relative aspect-video bg-gray-900">
-            <video
-              src={`${PUB.ui}/banner-video.mov`}
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover"
-            />
+          <div className="relative aspect-video bg-gradient-to-br from-[#111827] via-[#1f2937] to-[#0f766e]">
+            <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_30%_20%,#2dd4bf,transparent_42%),radial-gradient(circle_at_80%_70%,#0ea5e9,transparent_45%)]" />
+            <div className="relative z-10 h-full w-full flex items-center justify-center">
+              <div className="rounded-xl border border-white/10 bg-black/25 px-6 py-4">
+                <p className="text-center text-white font-semibold text-lg">The Gathering</p>
+                <p className="text-center text-teal-200 text-sm mt-1">
+                  Virtual workspace preview
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 

@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { Elysia } from "elysia";
 import { cors } from "@elysiajs/cors";
 import { Server as SocketIOServer } from "socket.io";

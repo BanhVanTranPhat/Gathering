@@ -1,9 +1,9 @@
 import { createClient } from "@/utils/auth/server";
 import { redirect } from "next/navigation";
-import { Navbar } from "@/components/Navbar/Navbar";
-import RealmsMenu from "./RealmsMenu/RealmsMenu";
 import { getVisitedRealms } from "@/utils/backend/getVisitedRealms";
 import { serverRequest } from "@/utils/backend/serverRequest";
+import DashboardShell from "./DashboardShell";
+import { formatEmailToName } from "@/utils/formatEmailToName";
 
 type DashboardSummary = {
   counts: {
@@ -52,6 +52,7 @@ export default async function App() {
   const {
     data: { session },
   } = await auth.auth.getSession();
+  const { data: profile } = await auth.from("profiles").select("avatar").single();
 
   if (!user || !session) {
     return redirect("/signin");
@@ -84,119 +85,16 @@ export default async function App() {
   const summary = await getDashboardSummary(session.access_token, realmIds);
 
   return (
-    <div className="min-h-screen bg-[#f5f5f5]">
-      <Navbar />
-      <div className="max-w-6xl mx-auto px-6 pt-6">
-        {summary && (
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-3 mb-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <p className="text-xs text-gray-500">Upcoming Events</p>
-              <p className="text-2xl font-bold text-gray-900 mt-1">
-                {summary.counts.events}
-              </p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <p className="text-xs text-gray-500">Library Resources</p>
-              <p className="text-2xl font-bold text-gray-900 mt-1">
-                {summary.counts.resources}
-              </p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <p className="text-xs text-gray-500">Forum Topics</p>
-              <p className="text-2xl font-bold text-gray-900 mt-1">
-                {summary.counts.threads}
-              </p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <p className="text-xs text-gray-500">Services</p>
-              <p className="text-2xl font-bold text-gray-900 mt-1">
-                {summary.counts.services}
-              </p>
-            </div>
-          </div>
-        )}
-
-        {summary && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-gray-900 mb-3">
-                Next Events
-              </h3>
-              <div className="space-y-2">
-                {summary.upcomingEvents.length === 0 && (
-                  <p className="text-xs text-gray-500">No upcoming events.</p>
-                )}
-                {summary.upcomingEvents.map((event) => (
-                  <div
-                    key={event.eventId}
-                    className="flex items-center justify-between rounded-lg bg-gray-50 px-3 py-2"
-                  >
-                    <p className="text-xs font-medium text-gray-800">
-                      {event.title}
-                    </p>
-                    <p className="text-[11px] text-gray-500">
-                      {new Date(event.startTime).toLocaleDateString("vi-VN", {
-                        day: "2-digit",
-                        month: "2-digit",
-                      })}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-gray-900 mb-3">
-                Library
-              </h3>
-              <div className="space-y-2">
-                {summary.recentResources.length === 0 && (
-                  <p className="text-xs text-gray-500">No library resources yet.</p>
-                )}
-                {summary.recentResources.slice(0, 4).map((resource) => (
-                  <div
-                    key={resource._id}
-                    className="rounded-lg bg-gray-50 px-3 py-2"
-                  >
-                    <p className="text-xs font-medium text-gray-800">
-                      {resource.title}
-                    </p>
-                    <p className="text-[11px] text-gray-500 capitalize">
-                      {resource.content_type || "resource"}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-gray-900 mb-3">
-                Forum
-              </h3>
-              <div className="space-y-2">
-                {summary.recentThreads.length === 0 && (
-                  <p className="text-xs text-gray-500">No forum topics yet.</p>
-                )}
-                {summary.recentThreads.slice(0, 3).map((thread) => (
-                  <div
-                    key={thread._id}
-                    className="rounded-lg bg-gray-50 px-3 py-2"
-                  >
-                    <p className="text-xs font-medium text-gray-800">
-                      {thread.title}
-                    </p>
-                    <p className="text-[11px] text-gray-500">
-                      {thread.postCount || 0} replies
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        )}
-
-        <RealmsMenu realms={realms} errorMessage={errorMessage} />
-      </div>
-    </div>
+    <DashboardShell
+      summary={summary}
+      realms={realms}
+      errorMessage={errorMessage}
+      accessToken={session.access_token}
+      displayName={formatEmailToName(
+        user?.user_metadata?.email ?? user?.email ?? "",
+      )}
+      email={user?.email || ""}
+      avatar={profile?.avatar || user?.user_metadata?.avatar_url || null}
+    />
   );
 }
