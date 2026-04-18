@@ -5,8 +5,12 @@ import { SpriteSheetData } from "./SpriteSheetData";
 const width = 544;
 const height = 736;
 const url = `${PUB.tilesets}/Room_Builder_v2_32x32.png`;
+const TILE_SIZE = 32;
+const TILE_COLS = width / TILE_SIZE;
+const TILE_ROWS = height / TILE_SIZE;
+const TILE_COUNT = TILE_COLS * TILE_ROWS;
 
-const sprites: SpriteSheetTile[] = [
+const namedSprites: SpriteSheetTile[] = [
   // Floors
   { name: "floor_wood_light", x: 352, y: 192, width: 32, height: 32, layer: "floor" },
   { name: "floor_tiles_grey", x: 352, y: 448, width: 32, height: 32, layer: "floor" },
@@ -27,5 +31,21 @@ const sprites: SpriteSheetTile[] = [
   // I'll stick to V2 for now as it's more complete for a map.
 ];
 
-const roomBuilderSpriteSheetData = new SpriteSheetData(width, height, url, sprites);
+const gridSprites: SpriteSheetTile[] = Array.from({ length: TILE_COUNT }, (_, localId) => {
+  const col = localId % TILE_COLS;
+  const row = Math.floor(localId / TILE_COLS);
+  return {
+    name: `g${localId}`,
+    x: col * TILE_SIZE,
+    y: row * TILE_SIZE,
+    width: TILE_SIZE,
+    height: TILE_SIZE,
+    layer: "floor",
+  };
+});
+
+const roomBuilderSpriteSheetData = new SpriteSheetData(width, height, url, [
+  ...namedSprites,
+  ...gridSprites,
+]);
 export { roomBuilderSpriteSheetData };

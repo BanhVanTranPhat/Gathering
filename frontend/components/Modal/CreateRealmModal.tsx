@@ -97,7 +97,7 @@ const CreateRealmModal: React.FC = () => {
   const { modal, setModal } = useModal();
   const [realmName, setRealmName] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
-  const [template, setTemplate] = useState<MapTemplate>("collabCampus");
+  const [template, setTemplate] = useState<MapTemplate>("theGathering03Office");
 
   const router = useRouter();
 

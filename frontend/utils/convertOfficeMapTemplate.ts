@@ -15,7 +15,6 @@ type RealmMapData = {
 const FLIP_MASK = 0xe0000000;
 const ROOM_BUILDER_FIRST_GID = 1;
 const INTERIORS_FIRST_GID = 392;
-const WA_ROOM_BUILDER_TILE_COUNT = 1000;
 
 function clearFlipFlags(gid: number) {
   return (gid & ~FLIP_MASK) >>> 0;
@@ -25,16 +24,12 @@ function toSpriteName(rawGid: number) {
   const gid = clearFlipFlags(rawGid);
   if (!gid) return null;
 
-  const localId =
-    gid >= INTERIORS_FIRST_GID
-      ? gid - INTERIORS_FIRST_GID
-      : gid - ROOM_BUILDER_FIRST_GID;
-
-  const safeId =
-    ((localId % WA_ROOM_BUILDER_TILE_COUNT) + WA_ROOM_BUILDER_TILE_COUNT) %
-    WA_ROOM_BUILDER_TILE_COUNT;
-
-  return `waRoomBuilder-g${safeId}`;
+  if (gid >= INTERIORS_FIRST_GID) {
+    const localId = gid - INTERIORS_FIRST_GID;
+    return `interiors-g${localId}`;
+  }
+  const localId = gid - ROOM_BUILDER_FIRST_GID;
+  return `roomBuilder-g${localId}`;
 }
 
 function indexToCoord(index: number, width: number) {

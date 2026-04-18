@@ -11,7 +11,7 @@ interface AvatarPickerModalProps {
   currentAvatar?: string;
   profileColor?: string;
   displayName?: string;
-  onSelect: (avatar: string) => void;
+  onSelect: (avatar: string) => Promise<void>;
 }
 
 export default function AvatarPickerModal({
@@ -23,6 +23,7 @@ export default function AvatarPickerModal({
   onSelect,
 }: AvatarPickerModalProps) {
   const [error, setError] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
   const [gender, setGender] = useState<"male" | "female">("male");
   const [onlineUrl, setOnlineUrl] = useState("");
 
@@ -46,13 +47,20 @@ export default function AvatarPickerModal({
     return `https://api.dicebear.com/8.x/notionists/svg?seed=${seed}-${variant}`;
   }, [displayName, gender]);
 
-  const handleUseDefaultAvatar = () => {
+  const handleUseDefaultAvatar = async () => {
     setError(null);
-    onSelect(defaultAvatarByGender);
-    onClose();
+    try {
+      setSaving(true);
+      await onSelect(defaultAvatarByGender);
+      onClose();
+    } catch (err: any) {
+      setError(err?.message || "Không thể cập nhật avatar.");
+    } finally {
+      setSaving(false);
+    }
   };
 
-  const handleUseOnlineUrl = () => {
+  const handleUseOnlineUrl = async () => {
     const value = onlineUrl.trim();
     if (!value) {
       setError("Vui lòng nhập URL ảnh online.");
@@ -70,8 +78,15 @@ export default function AvatarPickerModal({
       return;
     }
     setError(null);
-    onSelect(value);
-    onClose();
+    try {
+      setSaving(true);
+      await onSelect(value);
+      onClose();
+    } catch (err: any) {
+      setError(err?.message || "Không thể cập nhật avatar.");
+    } finally {
+      setSaving(false);
+    }
   };
 
   const handleResetToDefault = () => {
@@ -84,7 +99,11 @@ export default function AvatarPickerModal({
     setGender(nextGender);
     try {
       const auth = createClient();
-      await auth.from("profiles").update({ gender: nextGender });
+      const {
+        data: { user },
+      } = await auth.auth.getUser();
+      if (!user?.id) return;
+      await auth.from("profiles").update({ gender: nextGender }).eq("id", user.id);
     } catch {
       // Keep UI responsive even if gender persistence fails.
     }
@@ -131,6 +150,7 @@ export default function AvatarPickerModal({
           <button
             type="button"
             onClick={() => void handleGenderSwitch("male")}
+            disabled={saving}
             className={`rounded-xl border px-3 py-2 text-sm font-semibold transition ${
               gender === "male"
                 ? "border-teal-500 bg-teal-50 text-teal-700 dark:bg-teal-900/20"
@@ -142,6 +162,7 @@ export default function AvatarPickerModal({
           <button
             type="button"
             onClick={() => void handleGenderSwitch("female")}
+            disabled={saving}
             className={`rounded-xl border px-3 py-2 text-sm font-semibold transition ${
               gender === "female"
                 ? "border-teal-500 bg-teal-50 text-teal-700 dark:bg-teal-900/20"
@@ -154,9 +175,12 @@ export default function AvatarPickerModal({
         <button
           type="button"
           onClick={handleUseDefaultAvatar}
-          className="w-full py-2.5 mb-6 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-500 transition"
+          disabled={saving}
+          className="w-full py-2.5 mb-6 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-500 transition disabled:opacity-60"
         >
-          Dùng avatar mặc định ({gender === "female" ? "Nữ" : "Nam"})
+          {saving
+            ? "Đang lưu..."
+            : `Dùng avatar mặc định (${gender === "female" ? "Nữ" : "Nam"})`}
         </button>
 
         <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
@@ -166,6 +190,7 @@ export default function AvatarPickerModal({
           type="url"
           value={onlineUrl}
           onChange={(e) => setOnlineUrl(e.target.value)}
+          disabled={saving}
           placeholder="https://example.com/avatar.jpg"
           className="w-full rounded-xl border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm mb-2 bg-white dark:bg-gray-900"
         />
@@ -173,14 +198,16 @@ export default function AvatarPickerModal({
           <button
             type="button"
             onClick={handleUseOnlineUrl}
-            className="py-2.5 rounded-xl border border-teal-500 text-teal-600 font-semibold hover:bg-teal-50 dark:hover:bg-teal-900/20 transition"
+            disabled={saving}
+            className="py-2.5 rounded-xl border border-teal-500 text-teal-600 font-semibold hover:bg-teal-50 dark:hover:bg-teal-900/20 transition disabled:opacity-60"
           >
             Dùng URL này
           </button>
           <button
             type="button"
             onClick={handleResetToDefault}
-            className="py-2.5 rounded-xl border border-gray-300 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition"
+            disabled={saving}
+            className="py-2.5 rounded-xl border border-gray-300 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition disabled:opacity-60"
           >
             Xóa URL
           </button>

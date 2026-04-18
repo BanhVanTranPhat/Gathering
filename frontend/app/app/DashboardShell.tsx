@@ -57,6 +57,8 @@ type EventItem = {
   startTime: string;
   endTime: string;
   location?: string;
+  realmId?: string;
+  realmName?: string;
 };
 
 type ThreadItem = {
@@ -149,10 +151,12 @@ export default function DashboardShell({
   const [editThreadTitle, setEditThreadTitle] = useState("");
   const [editThreadBody, setEditThreadBody] = useState("");
   const [threadActionLoadingId, setThreadActionLoadingId] = useState<string | null>(null);
+  const [eventSort, setEventSort] = useState<"newest" | "oldest">("newest");
+  const [scheduleRealmId, setScheduleRealmId] = useState(realms[0]?.id ?? "");
 
   const selectedRealm = useMemo(
-    () => realms.find((realm) => realm.id === selectedRealmId),
-    [realms, selectedRealmId],
+    () => realms.find((realm) => realm.id === scheduleRealmId),
+    [realms, scheduleRealmId],
   );
 
   useEffect(() => {
@@ -161,6 +165,11 @@ export default function DashboardShell({
   useEffect(() => {
     setProfileGender(gender);
   }, [gender]);
+  useEffect(() => {
+    if (!scheduleRealmId && realms[0]?.id) {
+      setScheduleRealmId(realms[0].id);
+    }
+  }, [scheduleRealmId, realms]);
   const menuRealms = useMemo<MenuRealm[]>(
     () =>
       realms.map((realm) => ({
@@ -177,7 +186,7 @@ export default function DashboardShell({
     if (activeTab === "community") {
       void loadThreads();
     }
-  }, [activeTab, selectedRealmId]);
+  }, [activeTab, realms]);
 
   async function request(path: string, init?: RequestInit) {
     const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:5001";
@@ -197,14 +206,22 @@ export default function DashboardShell({
   }
 
   async function loadEvents() {
-    if (!selectedRealmId) return;
+    if (realms.length === 0) {
+      setEvents([]);
+      return;
+    }
     setLoadingEvents(true);
     try {
-      const now = new Date();
-      const data = await request(
-        `/events?realmId=${selectedRealmId}&month=${now.getMonth()}&year=${now.getFullYear()}`,
+      const eventGroups = await Promise.all(
+        realms.map(async (realm) => {
+          const data = await request(`/events?realmId=${realm.id}&page=1&limit=100`);
+          return ((data.events || []) as EventItem[]).map((event) => ({
+            ...event,
+            realmName: realm.name,
+          }));
+        }),
       );
-      setEvents((data.events || []) as EventItem[]);
+      setEvents(eventGroups.flat());
       setError("");
     } catch (eventError) {
       setError((eventError as Error).message);
@@ -252,7 +269,7 @@ export default function DashboardShell({
   }
 
   async function submitSchedule() {
-    if (!selectedRealmId || !eventForm.title || !eventForm.startTime || !eventForm.endTime) {
+    if (!scheduleRealmId || !eventForm.title || !eventForm.startTime || !eventForm.endTime) {
       return;
     }
     setScheduleSaving(true);
@@ -260,7 +277,7 @@ export default function DashboardShell({
       await request("/events", {
         method: "POST",
         body: JSON.stringify({
-          realmId: selectedRealmId,
+          realmId: scheduleRealmId,
           title: eventForm.title,
           description: eventForm.description,
           startTime: eventForm.startTime,
@@ -648,17 +665,14 @@ export default function DashboardShell({
                 <div className="flex items-center justify-between mb-3">
                   <h2 className="text-xl font-semibold">Lịch Họp Của Bạn</h2>
                   <select
-                    value={selectedRealmId}
-                    onChange={(event) => setSelectedRealmId(event.target.value)}
-                    disabled={realms.length === 0}
+                    value={eventSort}
+                    onChange={(event) =>
+                      setEventSort(event.target.value === "oldest" ? "oldest" : "newest")
+                    }
                     className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
                   >
-                    {realms.length === 0 && <option value="">No rooms available</option>}
-                    {realms.map((realm) => (
-                      <option key={realm.id} value={realm.id}>
-                        {realm.name}
-                      </option>
-                    ))}
+                    <option value="newest">Mới nhất trước</option>
+                    <option value="oldest">Cũ nhất trước</option>
                   </select>
                 </div>
                 <button
@@ -667,7 +681,7 @@ export default function DashboardShell({
                 >
                   Refresh events
                 </button>
-                {!selectedRealmId ? (
+                {realms.length === 0 ? (
                   <p className="text-sm text-slate-500">
                     Chưa có room khả dụng để hiển thị lịch.
                   </p>
@@ -682,7 +696,9 @@ export default function DashboardShell({
                     {events
                       .sort(
                         (a, b) =>
-                          new Date(a.startTime).getTime() - new Date(b.startTime).getTime(),
+                          eventSort === "newest"
+                            ? new Date(b.startTime).getTime() - new Date(a.startTime).getTime()
+                            : new Date(a.startTime).getTime() - new Date(b.startTime).getTime(),
                       )
                       .map((event) => (
                         <div
@@ -696,6 +712,9 @@ export default function DashboardShell({
                           {event.description && (
                             <p className="text-sm mt-1 text-slate-600">{event.description}</p>
                           )}
+                          <p className="text-xs text-slate-500 mt-1">
+                            Room: {event.realmName || event.realmId || "Không rõ"}
+                          </p>
                         </div>
                       ))}
                   </div>
@@ -876,7 +895,7 @@ export default function DashboardShell({
                   !eventForm.title ||
                   !eventForm.startTime ||
                   !eventForm.endTime ||
-                  !selectedRealm
+                  !scheduleRealmId
                 }
                 className="rounded-lg bg-[#0c84ea] px-4 py-2 text-sm font-semibold text-white disabled:opacity-60"
               >
@@ -894,6 +913,18 @@ export default function DashboardShell({
                   className="w-full border-b border-slate-300 px-1 py-2 text-4xl font-medium outline-none"
                 />
                 <div className="grid md:grid-cols-2 gap-3">
+                  <select
+                    value={scheduleRealmId}
+                    onChange={(event) => setScheduleRealmId(event.target.value)}
+                    className="rounded-lg border border-slate-300 px-3 py-2 md:col-span-2"
+                  >
+                    {realms.length === 0 && <option value="">Chưa có phòng</option>}
+                    {realms.map((realm) => (
+                      <option key={realm.id} value={realm.id}>
+                        {realm.name}
+                      </option>
+                    ))}
+                  </select>
                   <input
                     type="datetime-local"
                     value={eventForm.startTime}

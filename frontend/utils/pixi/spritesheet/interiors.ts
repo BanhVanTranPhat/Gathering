@@ -5,8 +5,12 @@ import { SpriteSheetData } from "./SpriteSheetData";
 const width = 512;
 const height = 2848;
 const url = `${PUB.tilesets}/Interiors_free_32x32.png`;
+const TILE_SIZE = 32;
+const TILE_COLS = width / TILE_SIZE;
+const TILE_ROWS = height / TILE_SIZE;
+const TILE_COUNT = TILE_COLS * TILE_ROWS;
 
-const sprites: SpriteSheetTile[] = [
+const namedSprites: SpriteSheetTile[] = [
   // Offices
   { name: "desk_pc_blue", x: 0, y: 0, width: 64, height: 64, layer: "object", colliders: [{ x: 0, y: 1 }, { x: 1, y: 1 }] },
   { name: "desk_pc_green", x: 192, y: 0, width: 64, height: 64, layer: "object", colliders: [{ x: 0, y: 1 }, { x: 1, y: 1 }] },
@@ -45,5 +49,21 @@ const sprites: SpriteSheetTile[] = [
   { name: "globe", x: 416, y: 1312, width: 32, height: 32, layer: "above_floor" },
 ];
 
-const interiorsSpriteSheetData = new SpriteSheetData(width, height, url, sprites);
+const gridSprites: SpriteSheetTile[] = Array.from({ length: TILE_COUNT }, (_, localId) => {
+  const col = localId % TILE_COLS;
+  const row = Math.floor(localId / TILE_COLS);
+  return {
+    name: `g${localId}`,
+    x: col * TILE_SIZE,
+    y: row * TILE_SIZE,
+    width: TILE_SIZE,
+    height: TILE_SIZE,
+    layer: "object",
+  };
+});
+
+const interiorsSpriteSheetData = new SpriteSheetData(width, height, url, [
+  ...namedSprites,
+  ...gridSprites,
+]);
 export { interiorsSpriteSheetData };
