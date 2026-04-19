@@ -10,6 +10,7 @@ import { createClient } from "../auth/client";
 import { gsap } from "gsap";
 import { collabCampusZones, companyOfficeZones, getZoneAt } from "../zones";
 import { videoChat } from "../video-chat/video-chat";
+import { getRoomBounds, RoomBoundsCache } from "./roomBounds";
 
 const MIN_ZOOM = 0.3;
 const MAX_ZOOM = 3;
@@ -39,6 +40,8 @@ export class PlayApp extends App {
   private currentPrivateAreaTiles: TilePoint[] = [];
   public proximityId: string | null = null;
   private avatarConfig?: Record<string, string>;
+  private roomBoundsCache: RoomBoundsCache = {};
+  private readonly maxFadeTiles = 4000;
 
   public savedPosition: { x: number; y: number; room: number } | null = null;
 
@@ -70,10 +73,16 @@ export class PlayApp extends App {
   private setUpFadeTiles = () => {
     this.fadeTiles = {};
     this.fadeTileContainer.removeChildren();
+    this.fadeTileContainer.alpha = 0;
 
-    for (const [key] of Object.entries(
+    const tileEntries = Object.entries(
       this.realmData.rooms[this.currentRoomIndex].tilemap,
-    )) {
+    );
+    if (tileEntries.length > this.maxFadeTiles) {
+      return;
+    }
+
+    for (const [key] of tileEntries) {
       const [x, y] = key.split(",").map(Number);
       const screenCoordinates = this.convertTileToScreenCoordinates(x, y);
       const tile: PIXI.Sprite = new PIXI.Sprite(
@@ -465,23 +474,11 @@ export class PlayApp extends App {
     minY: number;
     maxY: number;
   } => {
-    const keys = Object.keys(
-      this.realmData.rooms[this.currentRoomIndex].tilemap,
+    return getRoomBounds(
+      this.currentRoomIndex,
+      this.realmData.rooms[this.currentRoomIndex],
+      this.roomBoundsCache,
     );
-    let minX = 0,
-      maxX = 0,
-      minY = 0,
-      maxY = 0;
-    if (keys.length > 0) {
-      const coords = keys.map(
-        (k) => k.split(",").map(Number) as [number, number],
-      );
-      minX = Math.min(...coords.map(([x]) => x));
-      maxX = Math.max(...coords.map(([x]) => x));
-      minY = Math.min(...coords.map(([, y]) => y));
-      maxY = Math.max(...coords.map(([, y]) => y));
-    }
-    return { minX, maxX, minY, maxY };
   };
 
   private updateFadeOverlay = (x: number, y: number) => {

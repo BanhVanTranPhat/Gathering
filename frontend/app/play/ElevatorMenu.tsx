@@ -12,6 +12,14 @@ const ElevatorMenu: React.FC<ElevatorMenuProps> = ({ mapData }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentRoomIndex, setCurrentRoomIndex] = useState(0);
 
+  const cabinRoomIndex = mapData.rooms.findIndex((room) =>
+    room.name.toLowerCase().includes("cabin"),
+  );
+  const floorCandidates = mapData.rooms
+    .map((room, index) => ({ room, index }))
+    .filter(({ index }) => index !== cabinRoomIndex)
+    .slice(0, 10);
+
   useEffect(() => {
     const handleOpen = (data: { roomIndex: number; x: number; y: number }) => {
       setCurrentRoomIndex(data.roomIndex);
@@ -28,23 +36,28 @@ const ElevatorMenu: React.FC<ElevatorMenuProps> = ({ mapData }) => {
 
   const handleSelectFloor = (index: number) => {
     setIsOpen(false);
-    
-    // Step 1: Teleport to Cabin
-    signal.emit("triggerElevatorTeleport", {
-      roomIndex: 4, // Elevator Cabin index
-      x: 2,
-      y: 2,
-    });
-
-    // Step 2: Show "Moving..." state (optional, but good for UX)
-    // Step 3: Wait and then teleport to actual floor
-    setTimeout(() => {
+    if (cabinRoomIndex >= 0 && cabinRoomIndex !== index) {
       signal.emit("triggerElevatorTeleport", {
-        roomIndex: index,
-        x: 3, // Elevator exit position
-        y: 3,
+        roomIndex: cabinRoomIndex,
+        x: 2,
+        y: 2,
       });
-    }, 2000);
+
+      setTimeout(() => {
+        signal.emit("triggerElevatorTeleport", {
+          roomIndex: index,
+          x: 3,
+          y: 3,
+        });
+      }, 1200);
+      return;
+    }
+
+    signal.emit("triggerElevatorTeleport", {
+      roomIndex: index,
+      x: 3,
+      y: 3,
+    });
   };
 
   return (
@@ -67,7 +80,7 @@ const ElevatorMenu: React.FC<ElevatorMenuProps> = ({ mapData }) => {
         </div>
 
         <div className="grid gap-3">
-          {mapData.rooms.slice(0, 4).map((room, index) => (
+          {floorCandidates.map(({ room, index }, order) => (
             <button
               key={index}
               onClick={() => handleSelectFloor(index)}
@@ -80,7 +93,7 @@ const ElevatorMenu: React.FC<ElevatorMenuProps> = ({ mapData }) => {
               <div className={`w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold ${
                 currentRoomIndex === index ? "bg-blue-500 text-white" : "bg-white/10 text-gray-400"
               }`}>
-                {index === 0 ? "L" : index}
+                {order === 0 ? "L" : order}
               </div>
               <div className="flex-1 text-left">
                 <span className="font-semibold block">{room.name}</span>

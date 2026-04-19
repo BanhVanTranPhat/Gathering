@@ -6,6 +6,7 @@ import { connectDb } from "./db";
 import { apiRoutes } from "./elysia/routes";
 import { sessionManager } from "./session";
 import { sockets } from "./sockets/sockets";
+import { setSocketServer } from "./realtime/socketServer";
 import { processEventReminders } from "./utils/eventReminders";
 import { verifyToken } from "./utils/auth";
 
@@ -80,6 +81,7 @@ const io = new SocketIOServer(httpServer, {
     methods: ["GET", "POST"],
   },
 });
+setSocketServer(io);
 
 connectDb()
   .then(() => {
@@ -115,5 +117,4 @@ connectDb()
     process.exit(1);
   });
 
-export { io };
 export type App = typeof app;

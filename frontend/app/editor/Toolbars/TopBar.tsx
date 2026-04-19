@@ -67,7 +67,7 @@ const TopBar:React.FC<TopBarProps> = () => {
     function getBgColor() {
         if (barWidth < 0.7) {
             return 'bg-quaternary'
-        } else if (barWidth < 0.9) {
+        } else if (barWidth < 0.8) {
             return 'bg-orange-400'
         } else {
             return 'bg-red-500'
@@ -93,9 +93,9 @@ const TopBar:React.FC<TopBarProps> = () => {
             <p className='text-[11px] text-gray-500 hidden md:block'>Saving kicks online players</p>
 
             <div className='absolute right-4 xl:right-[420px] hidden lg:flex items-center gap-2'>
-                {barWidth > 0.9 && (
-                    <p className='text-[11px] font-medium text-red-400'>
-                        {barWidth >= 1 ? 'Out of space!' : 'Running low!'}
+                {barWidth > 0.8 && (
+                    <p className={`text-[11px] font-medium ${barWidth >= 0.95 ? 'text-red-400' : 'text-orange-300'}`}>
+                        {barWidth >= 1 ? 'Out of space!' : barWidth >= 0.95 ? 'Critical tile usage!' : 'Warning: over 80%'}
                     </p>
                 )}
                 <div className='w-48 h-2 rounded-full bg-white/10 overflow-hidden'>

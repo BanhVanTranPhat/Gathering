@@ -24,7 +24,8 @@ export async function saveRealm(
   }
 
   const roomNames = new Set<string>();
-  for (const room of realmData.rooms) {
+  for (let roomIndex = 0; roomIndex < realmData.rooms.length; roomIndex++) {
+    const room = realmData.rooms[roomIndex];
     if (Object.keys(room.tilemap).length > 10_000) {
       return { error: { message: "This room is too big to save!" } };
     }
@@ -39,6 +40,19 @@ export async function saveRealm(
       return {
         error: { message: "Room names cannot be longer than 32 characters." },
       };
+    }
+    for (const tile of Object.values(room.tilemap)) {
+      const targetRoom = tile.teleporter?.roomIndex;
+      if (
+        typeof targetRoom === "number" &&
+        (targetRoom < 0 || targetRoom >= realmData.rooms.length)
+      ) {
+        return {
+          error: {
+            message: `Invalid teleporter target in room ${roomIndex + 1}.`,
+          },
+        };
+      }
     }
     roomNames.add(roomName);
     room.name = removeExtraSpaces(room.name, true);

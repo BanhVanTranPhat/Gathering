@@ -27,6 +27,17 @@ const Rooms:React.FC<RoomsProps> = ({ rooms, setRooms, roomIndex, setRoomIndex }
         signal.emit('createRoom')
     }
 
+    function onCreateDepartmentPreset() {
+        if (rooms.length >= 50) {
+            toast.error('You can only have up to 50 rooms.')
+            return
+        }
+
+        signal.emit('createRoomPreset', {
+            kind: 'officeDepartments',
+        })
+    }
+
     useEffect(() => {
         // scroll when new room is created
         if (firstRender.current === false) {
@@ -88,6 +99,12 @@ const Rooms:React.FC<RoomsProps> = ({ rooms, setRooms, roomIndex, setRoomIndex }
                 >
                     <PlusCircleIcon className='h-4 w-4'/>
                     Add Room
+                </button>
+                <button
+                    className='flex items-center justify-center gap-1.5 w-full py-2 rounded-lg border border-dashed border-blue-400/30 text-xs text-blue-200 hover:text-white hover:border-blue-300 hover:bg-blue-500/10 transition-all'
+                    onClick={onCreateDepartmentPreset}
+                >
+                    Quick Add: Office Departments
                 </button>
         </div>
     )

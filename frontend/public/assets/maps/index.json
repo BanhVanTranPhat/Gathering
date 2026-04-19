@@ -1,0 +1,59 @@
+{
+  "maps": [
+    {
+      "id": "university",
+      "label": "University",
+      "engine": "pixijs",
+      "editor": "tiled",
+      "parser": "realm-template",
+      "files": [
+        "/assets/maps/university/tiled/hub.tmx"
+      ],
+      "tilesetsDir": "/assets/maps/university/tilesets",
+      "spawnpoint": {
+        "roomIndex": 0,
+        "x": 25,
+        "y": 15
+      }
+    },
+    {
+      "id": "office",
+      "label": "Office 2 Floors",
+      "engine": "pixijs",
+      "editor": "tiled",
+      "parser": "tmj-office",
+      "files": [
+        "/assets/maps/office/tiled/floor-1.tmj",
+        "/assets/maps/office/tiled/floor-2.tmj",
+        "/assets/maps/office/tiled/elevator-cabin.tmj"
+      ],
+      "tilesetsDir": "/assets/maps/office/tilesets",
+      "spawnpoint": {
+        "roomIndex": 0,
+        "x": 2,
+        "y": 2
+      },
+      "floors": [
+        {
+          "label": "Floor 1 - Reception & Meetings",
+          "roomIndex": 0
+        },
+        {
+          "label": "Floor 2 - Library & Focus",
+          "roomIndex": 1
+        }
+      ],
+      "elevator": {
+        "cabinRoomIndex": 2,
+        "defaultExit": {
+          "x": 3,
+          "y": 3
+        },
+        "cabinEntry": {
+          "x": 2,
+          "y": 2
+        }
+      }
+    }
+  ]
+}

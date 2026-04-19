@@ -1,6 +1,6 @@
 import * as PIXI from "pixi.js";
 import { Layer, RealmData, ColliderMap, TilePoint, Room } from "./types";
-import { sprites, Collider } from "./spritesheet/spritesheet";
+import { sprites, Collider, SheetName } from "./spritesheet/spritesheet";
 
 PIXI.TextureStyle.defaultOptions.scaleMode = "nearest";
 
@@ -46,6 +46,14 @@ export class App {
     this.layers.object.removeChildren();
     this.collidersFromSpritesMap = {};
 
+    const tilePlacements: Array<{
+      x: number;
+      y: number;
+      layer: Layer;
+      tileName: string;
+    }> = [];
+    const requiredSheets = new Set<string>();
+
     for (const [tilePoint, tileData] of Object.entries(room.tilemap)) {
       const floor = tileData.floor;
       const above_floor =
@@ -56,17 +64,31 @@ export class App {
       const [x, y] = tilePoint.split(",").map(Number);
 
       if (floor) {
-        await this.placeTileFromJson(x, y, "floor", floor);
+        tilePlacements.push({ x, y, layer: "floor", tileName: floor });
+        requiredSheets.add(floor.split("-")[0]);
       }
 
       if (above_floor) {
-        await this.placeTileFromJson(x, y, "above_floor", above_floor);
+        tilePlacements.push({ x, y, layer: "above_floor", tileName: above_floor });
+        requiredSheets.add(above_floor.split("-")[0]);
       }
 
       if (object) {
-        await this.placeTileFromJson(x, y, "object", object);
+        tilePlacements.push({ x, y, layer: "object", tileName: object });
+        requiredSheets.add(object.split("-")[0]);
       }
     }
+
+    await Promise.all(
+      Array.from(requiredSheets).map(async (sheetName) => {
+        await sprites.load(sheetName as SheetName);
+      }),
+    );
+    await Promise.all(
+      tilePlacements.map(async ({ x, y, layer, tileName }) => {
+        await this.placeTileFromJson(x, y, layer, tileName);
+      }),
+    );
 
     this.sortObjectsByY();
   }

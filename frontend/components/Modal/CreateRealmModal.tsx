@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Modal from "./Modal";
 import { useModal } from "@/app/hooks/useModal";
 import BasicButton from "../BasicButton";
@@ -9,21 +9,19 @@ import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import revalidate from "@/utils/revalidate";
 import { removeExtraSpaces } from "@/utils/removeExtraSpaces";
-import defaultMap from "@/utils/defaultmap.json";
-import collabCampusMap from "@/utils/collabcampusmap.json";
-import companyMap from "@/utils/companymap.json";
-import starMapsMap from "@/utils/starmapsmap.json";
-import workadventureStarterMap from "@/utils/workadventureStarterMap.json";
-import { buildOfficeMapTemplate } from "@/utils/convertOfficeMapTemplate";
+import {
+  AI_MAP_PREFIX,
+  resolveAiMapTemplate,
+} from "@/utils/maps/resolveAiMapTemplate";
+import { loadAiMapManifest } from "@/utils/maps/aiMapManifest";
 
-type MapTemplate =
-  | "home"
-  | "collabCampus"
-  | "company"
-  | "starMaps"
-  | "workadventureStarter"
-  | "theGathering03Office"
-  | "blank";
+type MapTemplate = string;
+const AI_MAP_COLORS = ["#06b6d4", "#22c55e", "#f59e0b", "#8b5cf6"];
+const AI_MAP_ICONS = ["🧠", "🏫", "🏢", "🗺️"];
+const BLANK_MAP = {
+  spawnpoint: { roomIndex: 0, x: 2, y: 2 },
+  rooms: [{ name: "Room 1", tilemap: {} }],
+};
 
 const MAP_TEMPLATES: {
   value: MapTemplate;
@@ -33,54 +31,6 @@ const MAP_TEMPLATES: {
   icon: string;
   iconBgClass: string;
 }[] = [
-  {
-    value: "home",
-    label: "Home",
-    description: "Outdoor park with trees & paths",
-    color: "#22c55e",
-    icon: "🏡",
-    iconBgClass: "bg-green-500/20",
-  },
-  {
-    value: "collabCampus",
-    label: "Collab Campus",
-    description: "Collaborative campus with meeting hubs",
-    color: "#3b82f6",
-    icon: "🏢",
-    iconBgClass: "bg-blue-500/20",
-  },
-  {
-    value: "company",
-    label: "Company (Multi-floor)",
-    description: "Multi-floor building with elevator",
-    color: "#f59e0b",
-    icon: "🛗",
-    iconBgClass: "bg-amber-500/20",
-  },
-  {
-    value: "starMaps",
-    label: "Star maps (3 rooms)",
-    description: "Kashyyyk → Paris → Tatooine, walk-through portals (50×30)",
-    color: "#10b981",
-    icon: "🌿",
-    iconBgClass: "bg-emerald-500/20",
-  },
-  {
-    value: "workadventureStarter",
-    label: "WA Starter (2 rooms)",
-    description: "Office 31×21 & conference 24×14, portals (WorkAdventure kit layout)",
-    color: "#0ea5e9",
-    icon: "🗺️",
-    iconBgClass: "bg-sky-500/20",
-  },
-  {
-    value: "theGathering03Office",
-    label: "The Gathering 03 Office",
-    description: "Imported office layout from the-gathering-03 (single room)",
-    color: "#14b8a6",
-    icon: "📚",
-    iconBgClass: "bg-teal-500/20",
-  },
   {
     value: "blank",
     label: "Blank",
@@ -97,7 +47,54 @@ const CreateRealmModal: React.FC = () => {
   const { modal, setModal } = useModal();
   const [realmName, setRealmName] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
-  const [template, setTemplate] = useState<MapTemplate>("theGathering03Office");
+  const [template, setTemplate] = useState<MapTemplate>("aiMap:university");
+  const [aiMapTemplates, setAiMapTemplates] = useState<
+    {
+      value: MapTemplate;
+      label: string;
+      description: string;
+      color: string;
+      icon: string;
+      iconBgClass: string;
+    }[]
+  >([]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadManifestTemplates() {
+      try {
+        const maps = await loadAiMapManifest();
+        if (!Array.isArray(maps)) return;
+
+        const generatedTemplates = maps.slice(0, 4).map((map, index) => ({
+          value: `${AI_MAP_PREFIX}${map.id}`,
+          label: `AI Map: ${map.label}`,
+          description: `From assets/maps (${map.files.length} file${map.files.length > 1 ? "s" : ""})`,
+          color: AI_MAP_COLORS[index % AI_MAP_COLORS.length],
+          icon: AI_MAP_ICONS[index % AI_MAP_ICONS.length],
+          iconBgClass: "bg-cyan-500/20",
+        }));
+
+        if (!cancelled) {
+          setAiMapTemplates(generatedTemplates);
+        }
+      } catch {
+        // Keep legacy templates available even when map manifest is unavailable.
+      }
+    }
+
+    loadManifestTemplates();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const allTemplates = useMemo(
+    () => [...aiMapTemplates, ...MAP_TEMPLATES],
+    [aiMapTemplates],
+  );
 
   const router = useRouter();
 
@@ -120,18 +117,10 @@ const CreateRealmModal: React.FC = () => {
       name: realmName,
       mapTemplate: template,
     };
-    if (template === "home") {
-      realmData.map_data = defaultMap;
-    } else if (template === "collabCampus") {
-      realmData.map_data = collabCampusMap;
-    } else if (template === "company") {
-      realmData.map_data = companyMap;
-    } else if (template === "starMaps") {
-      realmData.map_data = starMapsMap;
-    } else if (template === "workadventureStarter") {
-      realmData.map_data = workadventureStarterMap;
-    } else if (template === "theGathering03Office") {
-      realmData.map_data = buildOfficeMapTemplate();
+    if (template.startsWith(AI_MAP_PREFIX)) {
+      realmData.map_data = await resolveAiMapTemplate(template);
+    } else if (template === "blank") {
+      realmData.map_data = BLANK_MAP;
     }
 
     const { data, error } = await auth
@@ -180,7 +169,7 @@ const CreateRealmModal: React.FC = () => {
         <div>
           <p className="text-sm text-gray-400 mb-2">Map Template</p>
           <div className="flex flex-col gap-2">
-            {MAP_TEMPLATES.map((t) => (
+            {allTemplates.map((t) => (
               <label
                 key={t.value}
                 className={`flex items-center gap-3 px-3 py-3 rounded-xl border cursor-pointer transition-all ${

@@ -350,6 +350,7 @@ export class EditorApp extends App {
         signal.on('beginSave', this.onBeginSave)
         signal.on('saved', this.onSaved)
         signal.on('createRoom', this.onCreateRoom)
+        signal.on('createRoomPreset', this.onCreateRoomPreset)
         signal.on('changeRoom', this.changeRoom)
         signal.on('deleteRoom', this.onDeleteRoom)
         signal.on('changeRoomName', this.onChangeRoomName)
@@ -1147,6 +1148,37 @@ export class EditorApp extends App {
         this.changeRoom(this.realmData.rooms.length - 1)
     }
 
+    private onCreateRoomPreset = ({ kind }: { kind: string }) => {
+        if (kind !== 'officeDepartments') return
+
+        const presetNames = [
+            'Meeting Room',
+            'Library',
+            'Break Lounge',
+            'Training Room',
+        ]
+        const existing = this.realmData.rooms.map((room) => formatForComparison(room.name))
+        const newRealmData = this.getRealmDataCopy()
+
+        for (const presetName of presetNames) {
+            if (newRealmData.rooms.length >= 50) break
+            let name = presetName
+            let counter = 1
+            while (existing.includes(formatForComparison(name))) {
+                name = `${presetName} (${counter})`
+                counter++
+            }
+            existing.push(formatForComparison(name))
+            newRealmData.rooms.push({
+                name,
+                tilemap: {},
+            })
+            signal.emit('newRoom', name)
+        }
+
+        this.updateRealmData(newRealmData, false, true)
+    }
+
     private changeRoom = async (index: number) => {
         signal.emit('loadingRoom')
         this.currentRoomIndex = index
@@ -1235,6 +1267,7 @@ export class EditorApp extends App {
         signal.off('beginSave', this.onBeginSave)
         signal.off('saved', this.onSaved)
         signal.off('createRoom', this.onCreateRoom)
+        signal.off('createRoomPreset', this.onCreateRoomPreset)
         signal.off('changeRoom', this.changeRoom)
         signal.off('deleteRoom', this.onDeleteRoom)
         signal.off('changeRoomName', this.onChangeRoomName)

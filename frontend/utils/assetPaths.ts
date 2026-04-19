@@ -3,6 +3,7 @@
  */
 export const PUB = {
   sprites: "/assets/sprites",
+  maps: "/assets/maps",
   fonts: "/assets/fonts",
   gather: "/assets/gather",
   tilesets: "/assets/tilesets",

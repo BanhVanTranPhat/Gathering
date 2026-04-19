@@ -1,7 +1,10 @@
 import { sessionManager } from '../session'
-import { io } from '../elysia'
+import { getSocketServer } from '../realtime/socketServer'
 
 export function kickPlayer(uid: string, reason: string) {
+    const io = getSocketServer()
+    if (!io) return
+
     const session = sessionManager.getPlayerSession(uid)
     if (!session) return
 
